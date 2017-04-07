@@ -1,4 +1,0 @@
-Mini-CML Compiler
-
-Model(parentScope=not present, elements=[])
-Concept(parentScope=not present, elements=[], name="SomeConcept", abstracted="true")

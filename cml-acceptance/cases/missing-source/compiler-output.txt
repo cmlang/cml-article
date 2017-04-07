@@ -1,1 +1,0 @@
-Main source file (main.cml) missing in source dir: cases/missing-source
