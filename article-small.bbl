@@ -106,6 +106,14 @@ Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
 \newblock \doi{10.1007/978-3-642-15865-0_17}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_17}
 
+\bibitem{torgersen}
+Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
+\newblock In: {Companion to the 22Nd ACM SIGPLAN Conference on Object-oriented
+  Programming Systems and Applications Companion}, OOPSLA '07, pp. 852--853.
+  ACM, New York, NY, USA (2007).
+\newblock \doi{10.1145/1297846.1297922}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1297846.1297922}
+
 \bibitem{voelter}
 Voelter, M.: {Generic Tools, Specific Languages}.
 \newblock Ph.D. thesis, Delft University of Technology (2014).

@@ -63,4 +63,40 @@ derive: customers->select(totalSales > 1000)
 
 Both the CML expression and the OCL excerpt above evaluate to a set of \emph{Customer} instances
 that have bought more than 1000 in the \emph{BookStore}. 
+
+The OCL syntax for expressions that process collections of instances has the following general form:
+
+\verbatimfont{\small}
+\begin{verbatim}
+collection->method_name(predicate or function)
+\end{verbatim}
+
+The expression above is based on method invocations
+(an influence from UML's object-oriented paradigm),
+and thus it has an imperative style. CML has a different syntax (as shown previously),
+because it intends to be agnostic towards programming paradigms.
+Since CML uses collection expressions to define derived attributes and associations,
+its syntax to manipulate collections is more declarative,
+similar to SQL \cite{sql} or C\#'s LINQ \cite{torgersen}.
  
+In CML, smaller expressions can also be combined into larger ones. For example:
+ 
+\verbatimfont{\small}
+\begin{verbatim}
+/goldOrders = for order in bookStore.orders,
+                           goldCustomer in bookStore.goldCustomers
+               | select order.customer = goldCustomer
+               | yield unique order
+ \end{verbatim}
+
+In the example above, all \emph{orders} from \emph{goldCustomers} are returned.
+In order to find them, the sub-expressions are sequentially evaluated as follows:
+
+\begin{itemize}
+\item the \emph{for} expression provides a collection of all (\emph{order}, \emph{goldCustomer}) pairs;
+\item the \emph{select} expression then keeps only the pairs that have matching customers;
+\item finally, the \emph{yield} expression will map the collection of selected pairs into a set of unique \emph{orders}.
+\end{itemize}
+
+Sub-expressions like \emph{for}, \emph{select} and \emph{yield} can be combined in different configurations
+in order to derive any required attributes and associations.
