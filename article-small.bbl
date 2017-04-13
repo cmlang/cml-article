@@ -105,6 +105,11 @@ Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {Constructing Models
 \newblock \doi{10.1007/978-3-540-87875-9_18}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-87875-9_18}
 
+\bibitem{cml-repo}
+dos Santos, Q.C.M.: {Conceptual Modeling Language - Source Code Repository}
+  (2017).
+\newblock \urlprefix\url{http://github.com/orgs/cmlang}
+
 \bibitem{thalheim}
 Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
   Modelling and Foundations of Conceptual Modelling}.
