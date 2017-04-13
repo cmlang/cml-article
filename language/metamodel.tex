@@ -41,16 +41,17 @@ on the UML metamodel, as \emph{class}.
 
 \subsubsection{Property.}
 
-May be an attribute holding values of primitive types,
-or references (or collections of references) linking concepts.
+May hold values of primitive types, in which case they represent an attribute on the \emph{ER} and \emph{UML} metamodels;
+or may hold references (or collections of references) linking to instances of other concepts.
 On the ER metamodel,
-the set of all references is known as \emph{relationship};
-on the UML metamodel, unidirectional associations.
-Attributes have the same name on all metamodels.
+a set of all references linking one entity instance to another is known as a \emph{relationship};
+on the UML metamodel, it is known as a \emph{unidirectional association}.
 
 \subsubsection{Association.}
 
-Unlike the ER and UML metamodels, in the CML metamodel, only bidirectional associations are represented with the Association class. They bind the non-primitive properties (from the same or from different concepts.) 
+Unlike the ER and UML metamodels, in the CML metamodel, only bidirectional associations are represented with the Association class. Using UML terminology, they bind the reference (non-primitive) properties (of the same, or different concepts),
+so that the association links are accessible from each association end participating in the association.
+It directly represents in the CML metamodel what normally requires additional implementation in programming languages.
+It is inspired\footnote{The syntax used in CML resembles the syntax of a \emph{struct} in C \cite{clang}, while Cardoso \cite{cardoso} uses a verbose syntax. Also, unlike CML, Cardoso does \emph{not} bind properties that represent each association end; instead, associations -- unidirectional or bidirectional -- are declared independently of class properties.} on the work of Cardoso \cite{cardoso}, which extends the C\# language to represent bidirectional associations.
 
-
-\subsubsection{Type.} They may be primitive types (such as Boolean, String, Decimal, and Regex), references to concept instances, or still collections of concepts. They may also be optional, meaning their value may or may not have been set.
+\subsubsection{Type.} They may be primitive types (such as Boolean, String, Decimal, and Regex), references to concept instances, or still collections of concepts, depending on the \emph{cardinality} property. They may also be optional, meaning their value may or may not have been set; also defined by the \emph{cardinality} property.
