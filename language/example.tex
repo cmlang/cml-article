@@ -14,10 +14,10 @@ Some examples of the key language features shown in the figure \ref{fig:store} a
 \item concepts: \emph{Book} and \emph{Customer};
 \item attributes: \emph{title} and \emph{price} under the \emph{Book} concept;  
 \item derived attributes: \emph{totalSales} under the \emph{Customer} concept;
-\item uni-directional associations: \emph{books} and \emph{customers} under the \emph{BookStore} concept;
-\item bi-directional associations: \emph{CustomerOrder},
-which binds two uni-directional associations (\emph{orders} under the \emph{Customer} concept and \emph{customer} under the \emph{Order} concept) into a single bi-directional association;
-\item derived associations: \emph{goldCustomers} and \emph{orderedBooks} under the \emph{BookStore} concept.
+\item unidirectional associations: the \emph{books} and \emph{customers} properties as declared under the \emph{BookStore} concept are used to represent unidirectional associations (in UML \cite{uml}, they would correspond to the association roles);
+\item bidirectional associations: \emph{CustomerOrder},
+which binds two unidirectional associations (represented by the \emph{orders} property under the \emph{Customer} concept and by the \emph{customer} property under the \emph{Order} concept) into a single bidirectional association;
+\item derived associations: declared as the \emph{goldCustomers} and \emph{orderedBooks} properties under the \emph{BookStore} concept.
 \end{itemize}
 
 These language features will be defined in the subsection \ref{subsec:metamodel}.
