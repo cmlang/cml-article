@@ -1,13 +1,16 @@
 \section{Why A New Language?}\label{sec:why}
 
-A new programming language is proposed here for two primary reasons:
-developer experience and language evolution.
-As opposed to using standard, richer languages,
-such as OWL 2 \cite{owl2} and UML \cite{uml},
-the choice of a new language has to do with its purpose.
-In this context, the language is just a tool
-that allows software developers to transform conceptual models into executable code,
-and as such it is designed to meet the high-level goals presented in the following subsections.
+Thalheim \cite{thalheim} has observed that
+the choice of a conceptual modeling language has to do with its purpose.
+He suggests that
+a language is just a \emph{carrier} mapping some properties of the \emph{origin} (the problem space)
+that can provide utility to its users. 
+
+In this context, the purpose of the CML language is being a tool
+that allows software developers to transform conceptual models
+into executable code of an extensible range of technologies.
+In order to achieve this purpose,
+a new language is designed with the high-level goals presented in the following subsections.
 
 \subsection{Developer Experience}
 
@@ -56,4 +59,16 @@ the CML language and its extensible compiler intentionally support a limited num
 This first version has been designed for the initial validation of the model-driven development approach taken by CML.
 As developers provide feedback,
 new language features may be iteratively added in order to enable the extensible CML compiler to support new modeling/development scenarios.
+
+\subsection{Extensible Target Generation}
+
+Some of the language features enable the generation of code into a wide range of target languages and technologies. Among the features that must be provided by the CML language, there is the ability to:
+
+\begin{itemize}
+\item break models into modules that can be shared as libraries;
+\item specify different code generation targets;
+\item and annotate model elements in order to provide more information for specific targets during code generation.
+\end{itemize}
+
+These features need to be available in a single language, they have to compatible with each other and with the code generation backend.
 
