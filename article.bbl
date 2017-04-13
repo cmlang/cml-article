@@ -6,6 +6,14 @@
   \providecommand{\doi}{doi:~\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem{cardoso}
+Cardoso, I.S.: {Inserindo suporte a declara{\c{c}}{\~a}o de
+  associa{\c{c}}{\~o}es da UML 2 em uma linguagem de programa{\c{c}}{\~a}o
+  orientada a objetos}.
+\newblock Master's thesis, Universidade Federal de Santa Catarina (2011).
+\newblock
+  \urlprefix\url{http://repositorio.ufsc.br/xmlui/handle/123456789/96031}
+
 \bibitem{er}
 Chen, P.P.S.: {The Entity-Relationship Model (Reprinted Historic Data)}.
 \newblock In: D.W. Embley, B.~Thalheim (eds.) Handbook of Conceptual Modeling:
@@ -22,6 +30,14 @@ Embley, D.W., Liddle, S.W., Pastor, O.: {Conceptual-Model Programming: A
   Heidelberg, Berlin, Heidelberg (2011).
 \newblock \doi{10.1007/978-3-642-15865-0_1}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_1}
+
+\bibitem{gaffney}
+Gaffney Jr., J.E., Cruickshank, R.D.: {A General Economics Model of Software
+  Reuse}.
+\newblock In: {Proceedings of the 14th International Conference on Software
+  Engineering}, ICSE '92, pp. 327--337. ACM, New York, NY, USA (1992).
+\newblock \doi{10.1145/143062.143150}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/143062.143150}
 
 \bibitem{gogolla}
 Gogolla, M., Thalheim, B.: {UML and OCL in Conceptual Modeling}.
@@ -88,6 +104,32 @@ Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {Constructing Models
   (2008).
 \newblock \doi{10.1007/978-3-540-87875-9_18}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-87875-9_18}
+
+\bibitem{cml-repo}
+dos Santos, Q.C.M.: {Conceptual Modeling Language - Source Code Repository}
+  (2017).
+\newblock \urlprefix\url{http://github.com/orgs/cmlang}
+
+\bibitem{cml-spec}
+dos Santos, Q.C.M.: {Conceptual Modeling Language - Specification} (2017).
+\newblock \urlprefix\url{http://github.com/cmlang/cml-specification}
+
+\bibitem{thalheim}
+Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
+  Modelling and Foundations of Conceptual Modelling}.
+\newblock In: D.W. Embley, B.~Thalheim (eds.) {Handbook of Conceptual Modeling:
+  Theory, Practice, and Research Challenges}, pp. 543--577. Springer Berlin
+  Heidelberg, Berlin, Heidelberg (2011).
+\newblock \doi{10.1007/978-3-642-15865-0_17}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_17}
+
+\bibitem{torgersen}
+Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
+\newblock In: {Companion to the 22Nd ACM SIGPLAN Conference on Object-oriented
+  Programming Systems and Applications Companion}, OOPSLA '07, pp. 852--853.
+  ACM, New York, NY, USA (2007).
+\newblock \doi{10.1145/1297846.1297922}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1297846.1297922}
 
 \bibitem{voelter}
 Voelter, M.: {Generic Tools, Specific Languages}.

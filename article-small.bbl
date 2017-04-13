@@ -110,6 +110,10 @@ dos Santos, Q.C.M.: {Conceptual Modeling Language - Source Code Repository}
   (2017).
 \newblock \urlprefix\url{http://github.com/orgs/cmlang}
 
+\bibitem{cml-spec}
+dos Santos, Q.C.M.: {Conceptual Modeling Language - Specification} (2017).
+\newblock \urlprefix\url{http://github.com/cmlang/cml-specification}
+
 \bibitem{thalheim}
 Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
   Modelling and Foundations of Conceptual Modelling}.
