@@ -85,6 +85,15 @@ ISO: {IEC 9075-1: 2003 (E) Information technology --- Database languages ---
 Jensen, K., Wirth, N.: {PASCAL User Manual and Report}.
 \newblock Springer-Verlag New York, Inc. (1974)
 
+\bibitem{fcml}
+Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.:
+  {Fundamental Conceptual Modeling Languages in OMiLAB}.
+\newblock In: D.~Karagiannis, H.C. Mayr, J.~Mylopoulos (eds.) {Domain-Specific
+  Conceptual Modeling: Concepts, Methods and Tools}, pp. 3--30. Springer
+  International Publishing, Cham (2016).
+\newblock \doi{10.1007/978-3-319-39417-6_1}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-319-39417-6_1}
+
 \bibitem{torben}
 Mogensen, T.Æ.: {Introduction to Compiler Design.}
 \newblock {Undergraduate Topics in Computer Science}. Springer (2011).
@@ -145,6 +154,15 @@ Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
   Heidelberg, Berlin, Heidelberg (2011).
 \newblock \doi{10.1007/978-3-642-15865-0_17}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_17}
+
+\bibitem{metaedit}
+Tolvanen, J.P.: {MetaEdit+: Domain-specific Modeling for Full Code Generation
+  Demonstrated [GPCE]}.
+\newblock In: {Companion to the 19th Annual ACM SIGPLAN Conference on
+  Object-oriented Programming Systems, Languages, and Applications}, OOPSLA
+  '04, pp. 39--40. ACM, New York, NY, USA (2004).
+\newblock \doi{10.1145/1028664.1028686}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1028664.1028686}
 
 \bibitem{torgersen}
 Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
