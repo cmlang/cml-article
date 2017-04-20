@@ -140,6 +140,13 @@ Mogensen, T.Æ.: {Introduction to Compiler Design.}
 \newblock {Undergraduate Topics in Computer Science}. Springer (2011).
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-0-85729-829-4}
 
+\bibitem{telos}
+Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
+  Knowledge About Information Systems}.
+\newblock ACM Trans. Inf. Syst. \textbf{8}(4), 325--362 (1990).
+\newblock \doi{10.1145/102675.102676}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/102675.102676}
+
 \bibitem{mofscript}
 Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., Berre, A.J.: {Toward
   Standardised Model to Text Transformations}.
