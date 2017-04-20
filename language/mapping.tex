@@ -84,7 +84,7 @@ In CML, smaller expressions can also be combined into larger ones. For example:
 \verbatimfont{\small}
 \begin{verbatim}
 /goldOrders = for order in bookStore.orders,
-                           goldCustomer in bookStore.goldCustomers
+                  goldCustomer in bookStore.goldCustomers
                | select order.customer = goldCustomer
                | yield unique order
  \end{verbatim}
