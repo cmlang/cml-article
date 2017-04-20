@@ -214,6 +214,11 @@ dos Santos, Q.C.M.: {Conceptual Modeling Language - Source Code Repository}
 dos Santos, Q.C.M.: {Conceptual Modeling Language - Specification} (2017).
 \newblock \urlprefix\url{http://github.com/cmlang/cml-specification}
 
+\bibitem{emf}
+Steinberg, D., Budinsky, F., Merks, E., Paternostro, M.: {EMF: eclipse modeling
+  framework}.
+\newblock Pearson Education (2008)
+
 \bibitem{thalheim}
 Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
   Modelling and Foundations of Conceptual Modelling}.
