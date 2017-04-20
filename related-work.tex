@@ -51,3 +51,22 @@ Frameworks may also be used as the infrastructure of modeling languages.
 EMF, for example, is the framework supporting Xtext.
 Conceivably, other modeling languages may also target EMF.
 In fact, CML's extensible compiler allows the implementation of templates that target EMF.
+
+\subsection{Template Languages}
+
+As seen in previous sections,
+the CML compiler uses StringTemplate as the language for its code generation templates.
+There are other template languages designed for code generation from conceptual models:
+
+\begin{itemize}
+\item Xpand
+\item EGL
+\item MOFScript
+\item JET
+\end{itemize}
+
+One major strength of StringTemplate over the options above is its extensibility mechanisms.
+It is possible to define a core set of templates that define patterns, 
+and then extend them with the specifics of each target language or technology.
+It is also possible to share templates as libraries,
+which can be further extended for specific purposes by third-parties.
