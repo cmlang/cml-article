@@ -6,6 +6,11 @@
   \providecommand{\doi}{doi:~\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem{fibonacci}
+Albano, A., Bergamini, R., Ghelli, G., Orsini, R.: An object data model with
+  roles.
+\newblock In: VLDB, vol.~93, pp. 39--51 (1993)
+
 \bibitem{balzer}
 Balzer, S., Gross, T.R., Eugster, P.: {A Relational Model of Object
   Collaborations and Its Use in Reasoning About Relationships}.
@@ -14,6 +19,15 @@ Balzer, S., Gross, T.R., Eugster, P.: {A Relational Model of Object
   pp. 323--346. Springer Berlin Heidelberg, Berlin, Heidelberg (2007).
 \newblock \doi{10.1007/978-3-540-73589-2_16}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-73589-2_16}
+
+\bibitem{bierman}
+Bierman, G., Wren, A.: {First-Class Relationships in an Object-Oriented
+  Language}.
+\newblock In: A.P. Black (ed.) {ECOOP 2005 - Object-Oriented Programming: 19th
+  European Conference, Glasgow, UK, July 25-29, 2005. Proceedings}, pp.
+  262--286. Springer Berlin Heidelberg, Berlin, Heidelberg (2005).
+\newblock \doi{10.1007/11531142_12}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/11531142_12}
 
 \bibitem{cardoso}
 Cardoso, I.S.: {Inserindo suporte a declara{\c{c}}{\~a}o de
