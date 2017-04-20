@@ -2,7 +2,8 @@
 %
 In order to address the challenges of the ever-changing,
 increasingly distributed technologies used on software systems,
-the Model-Driven Architecture (MDA \cite{mda}) initiative by the Object Management Group (OMG) has been promoting model-driven software development.
+Model-Driven Architecture (MDA \cite{mda}) from Object Management Group (OMG)
+has been promoting model-driven software development.
 In particular, MDA has guided the use of high-level models (created with OMG standards,
 such as UML \cite{uml}, OCL \cite{ocl} and MOF \cite{mof}) to derive software artifacts and implementations via automated transformations.
 As one of its value propositions, the MDA guide \cite{mda} advocates:
@@ -23,7 +24,7 @@ MPS itself is a generic tool,
 but it enables the definition of the abstract syntax, the editors and the code generators for DSL's.
 
 The conceptual modeling language and extensible compiler presented here are an alternative approach to MPS.
-While the latter is a fully integrated development environment based on domain-specific languages and their projectional editors \footnote{As explained by Voelter \cite{voelter}, projectional editors in MPS do not rely on parsers.
+While the latter is a fully integrated development environment based on domain-specific languages and their projectional editors\footnote{As explained by Voelter \cite{voelter}, projectional editors in MPS do not rely on parsers.
 Instead, the abstract syntax tree (AST) of the DSL is modified directly.
 The projection engine renders the visual representation of the AST based on the DSL editor definition.},
 the former (hereby called CML) is a compiler that has:
@@ -37,7 +38,7 @@ which may be provided by the compiler's base libraries, by third-party libraries
 Both the CML language and compiler have been initially developed as part of the author's Computer Sciences Bachelor Technical Report (a citation will be provided once available),
 and they are now under development \cite{cml-repo} as an open source project.
 
-Section \ref{sec:why} addresses the question of why providing yet another language for conceptual modeling.
+Section \ref{sec:why} addresses the motivation for creating yet another language for conceptual modeling.
 The next two sections present the conceptual model language (section \ref{sec:lang}) and the compiler with its extensible templates (section \ref{sec:compiler}).
 We conclude in section \ref{sec:conclusion},
 reiterating the objectives achieved by CML and exploring alternatives to validate the use of CML.
