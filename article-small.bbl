@@ -6,6 +6,15 @@
   \providecommand{\doi}{doi:~\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem{balzer}
+Balzer, S., Gross, T.R., Eugster, P.: {A Relational Model of Object
+  Collaborations and Its Use in Reasoning About Relationships}.
+\newblock In: E.~Ernst (ed.) {ECOOP 2007 -- Object-Oriented Programming: 21st
+  European Conference, Berlin, Germany, July 30 - August 3, 2007. Proceedings},
+  pp. 323--346. Springer Berlin Heidelberg, Berlin, Heidelberg (2007).
+\newblock \doi{10.1007/978-3-540-73589-2_16}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-73589-2_16}
+
 \bibitem{cardoso}
 Cardoso, I.S.: {Inserindo suporte a declara{\c{c}}{\~a}o de
   associa{\c{c}}{\~o}es da UML 2 em uma linguagem de programa{\c{c}}{\~a}o
