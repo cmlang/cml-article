@@ -70,6 +70,13 @@ Gogolla, M., Thalheim, B.: {UML and OCL in Conceptual Modeling}.
 \newblock \doi{10.1007/978-3-642-15865-0_4}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_4}
 
+\bibitem{xpand}
+Greifenberg, T., M{\"{u}}ller, K., Roth, A., Rumpe, B., Schulze, C., Wortmann,
+  A.: {Modeling Variability in Template-based Code Generators for Product Line
+  Engineering}.
+\newblock CoRR \textbf{abs/1606.02903} (2016).
+\newblock \urlprefix\url{http://arxiv.org/abs/1606.02903}
+
 \bibitem{clang}
 {ISO}: {ISO/IEC 9899:2011 Information technology --- Programming languages ---
   C}.
@@ -98,6 +105,16 @@ Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.:
 Mogensen, T.Æ.: {Introduction to Compiler Design.}
 \newblock {Undergraduate Topics in Computer Science}. Springer (2011).
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-0-85729-829-4}
+
+\bibitem{mofscript}
+Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., Berre, A.J.: {Toward
+  Standardised Model to Text Transformations}.
+\newblock In: A.~Hartman, D.~Kreische (eds.) {Model Driven Architecture --
+  Foundations and Applications: First European Conference, ECMDA-FA 2005,
+  Nuremberg, Germany, November 7-10, 2005. Proceedings}, pp. 239--253. Springer
+  Berlin Heidelberg, Berlin, Heidelberg (2005).
+\newblock \doi{10.1007/11581741_18}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/11581741_18}
 
 \bibitem{mda}
 OMG: {Model Driven Architecture (MDA) MDA Guide rev. 2.0} (2014).
@@ -137,6 +154,16 @@ Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {Constructing Models
 \newblock \doi{10.1007/978-3-540-87875-9_18}.
 \newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-87875-9_18}
 
+\bibitem{egl}
+Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {The Epsilon Generation
+  Language}.
+\newblock In: I.~Schieferdecker, A.~Hartman (eds.) {Model Driven Architecture
+  -- Foundations and Applications: 4th European Conference, ECMDA-FA 2008,
+  Berlin, Germany, June 9-13, 2008. Proceedings}, pp. 1--16. Springer Berlin
+  Heidelberg, Berlin, Heidelberg (2008).
+\newblock \doi{10.1007/978-3-540-69100-6_1}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-69100-6_1}
+
 \bibitem{cml-repo}
 dos Santos, Q.C.M.: {Conceptual Modeling Language - Source Code Repository}
   (2017).
@@ -171,6 +198,11 @@ Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
   ACM, New York, NY, USA (2007).
 \newblock \doi{10.1145/1297846.1297922}.
 \newblock \urlprefix\url{http://doi.acm.org/10.1145/1297846.1297922}
+
+\bibitem{jet}
+{van Emde Boas, Ghica}: Template programming for model-driven code generation.
+\newblock In: {19th Annual ACM SIGPLAN Conference on Object-Oriented
+  Programming, Systems, Languages, and Applications, Vancouver, CA} (2004)
 
 \bibitem{voelter}
 Voelter, M.: {Generic Tools, Specific Languages}.
