@@ -16,9 +16,7 @@ Balzer, S., Gross, T.R., Eugster, P.: {A Relational Model of Object
   Collaborations and Its Use in Reasoning About Relationships}.
 \newblock In: E.~Ernst (ed.) {ECOOP 2007 -- Object-Oriented Programming: 21st
   European Conference, Berlin, Germany, July 30 - August 3, 2007. Proceedings},
-  pp. 323--346. Springer Berlin Heidelberg, Berlin, Heidelberg (2007).
-\newblock \doi{10.1007/978-3-540-73589-2_16}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-73589-2_16}
+  pp. 323--346. Springer Berlin Heidelberg, Berlin, Heidelberg (2007)
 
 \bibitem{xtext}
 Bettini, L.: Implementing domain-specific languages with Xtext and Xtend.
@@ -29,9 +27,7 @@ Bierman, G., Wren, A.: {First-Class Relationships in an Object-Oriented
   Language}.
 \newblock In: A.P. Black (ed.) {ECOOP 2005 - Object-Oriented Programming: 19th
   European Conference, Glasgow, UK, July 25-29, 2005. Proceedings}, pp.
-  262--286. Springer Berlin Heidelberg, Berlin, Heidelberg (2005).
-\newblock \doi{10.1007/11531142_12}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/11531142_12}
+  262--286. Springer Berlin Heidelberg, Berlin, Heidelberg (2005)
 
 \bibitem{ifml}
 Brambilla, M., Mauri, A., Umuhoza, E.: {Extending the Interaction Flow Modeling
@@ -40,9 +36,7 @@ Brambilla, M., Mauri, A., Umuhoza, E.: {Extending the Interaction Flow Modeling
 \newblock In: I.~Awan, M.~Younas, X.~Franch, C.~Quer (eds.) {Mobile Web
   Information Systems: 11th International Conference, MobiWIS 2014, Barcelona,
   Spain, August 27-29, 2014. Proceedings}, pp. 176--191. Springer International
-  Publishing, Cham (2014).
-\newblock \doi{10.1007/978-3-319-10359-4_15}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-319-10359-4_15}
+  Publishing, Cham (2014)
 
 \bibitem{mlang}
 Bruneli{\`e}re, H., Cabot, J., Clasen, C., Jouault, F., B{\'e}zivin, J.:
@@ -51,76 +45,60 @@ Bruneli{\`e}re, H., Cabot, J., Clasen, C., Jouault, F., B{\'e}zivin, J.:
 \newblock In: T.~K{\"u}hne, B.~Selic, M.P. Gervais, F.~Terrier (eds.)
   {Modelling Foundations and Applications: 6th European Conference, ECMFA 2010,
   Paris, France, June 15-18, 2010. Proceedings}, pp. 32--47. Springer Berlin
-  Heidelberg, Berlin, Heidelberg (2010).
-\newblock \doi{10.1007/978-3-642-13595-8_5}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-13595-8_5}
+  Heidelberg, Berlin, Heidelberg (2010)
 
 \bibitem{cardoso}
 Cardoso, I.S.: {Inserindo suporte a declara{\c{c}}{\~a}o de
   associa{\c{c}}{\~o}es da UML 2 em uma linguagem de programa{\c{c}}{\~a}o
   orientada a objetos}.
-\newblock Master's thesis, Universidade Federal de Santa Catarina (2011).
-\newblock
-  \urlprefix\url{http://repositorio.ufsc.br/xmlui/handle/123456789/96031}
+\newblock Master's thesis, Universidade Federal de Santa Catarina (2011)
 
 \bibitem{er}
 Chen, P.P.S.: {The Entity-Relationship Model (Reprinted Historic Data)}.
 \newblock In: D.W. Embley, B.~Thalheim (eds.) Handbook of Conceptual Modeling:
   Theory, Practice, and Research Challenges, pp. 57--84. Springer Berlin
-  Heidelberg, Berlin, Heidelberg (2011).
-\newblock \doi{10.1007/978-3-642-15865-0_3}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_3}
+  Heidelberg, Berlin, Heidelberg (2011)
 
 \bibitem{cmp}
 Embley, D.W., Liddle, S.W., Pastor, O.: {Conceptual-Model Programming: A
   Manifesto}.
 \newblock In: D.W. Embley, B.~Thalheim (eds.) {Handbook of Conceptual Modeling:
   Theory, Practice, and Research Challenges}, pp. 3--16. Springer Berlin
-  Heidelberg, Berlin, Heidelberg (2011).
-\newblock \doi{10.1007/978-3-642-15865-0_1}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_1}
+  Heidelberg, Berlin, Heidelberg (2011)
 
 \bibitem{gaffney}
 Gaffney Jr., J.E., Cruickshank, R.D.: {A General Economics Model of Software
   Reuse}.
 \newblock In: {Proceedings of the 14th International Conference on Software
-  Engineering}, ICSE '92, pp. 327--337. ACM, New York, NY, USA (1992).
-\newblock \doi{10.1145/143062.143150}.
-\newblock \urlprefix\url{http://doi.acm.org/10.1145/143062.143150}
+  Engineering}, ICSE '92, pp. 327--337. ACM, New York, NY, USA (1992)
 
 \bibitem{xslt}
 Gheraibia, Y., Bourouis, A.: {Ontology and automatic code generation on
   modeling and simulation}.
 \newblock In: {2012 6th International Conference on Sciences of Electronics,
   Technologies of Information and Telecommunications (SETIT)}, pp. 69--73
-  (2012).
-\newblock \doi{10.1109/SETIT.2012.6481892}
+  (2012)
 
 \bibitem{gogolla}
 Gogolla, M., Thalheim, B.: {UML and OCL in Conceptual Modeling}.
 \newblock In: D.W. Embley, B.~Thalheim (eds.) Handbook of Conceptual Modeling:
   Theory, Practice, and Research Challenges, pp. 85--122. Springer Berlin
-  Heidelberg, Berlin, Heidelberg (2011).
-\newblock \doi{10.1007/978-3-642-15865-0_4}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_4}
+  Heidelberg, Berlin, Heidelberg (2011)
 
 \bibitem{xpand}
 Greifenberg, T., M{\"{u}}ller, K., Roth, A., Rumpe, B., Schulze, C., Wortmann,
   A.: {Modeling Variability in Template-based Code Generators for Product Line
   Engineering}.
-\newblock CoRR \textbf{abs/1606.02903} (2016).
-\newblock \urlprefix\url{http://arxiv.org/abs/1606.02903}
+\newblock CoRR \textbf{abs/1606.02903} (2016)
 
 \bibitem{clang}
 {ISO}: {ISO/IEC 9899:2011 Information technology --- Programming languages ---
   C}.
-\newblock International Organization for Standardization (2011).
-\newblock \urlprefix\url{https://www.iso.org/standard/57853.html}
+\newblock International Organization for Standardization (2011)
 
 \bibitem{sql}
 ISO: {IEC 9075-1: 2003 (E) Information technology --- Database languages ---
-  SQL --- Part 1: Framework (SQL/Framework)} (2016).
-\newblock \urlprefix\url{https://www.iso.org/standard/63555.html}
+  SQL --- Part 1: Framework (SQL/Framework)} (2016)
 
 \bibitem{pascal}
 Jensen, K., Wirth, N.: {PASCAL User Manual and Report}.
@@ -131,21 +109,16 @@ Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.:
   {Fundamental Conceptual Modeling Languages in OMiLAB}.
 \newblock In: D.~Karagiannis, H.C. Mayr, J.~Mylopoulos (eds.) {Domain-Specific
   Conceptual Modeling: Concepts, Methods and Tools}, pp. 3--30. Springer
-  International Publishing, Cham (2016).
-\newblock \doi{10.1007/978-3-319-39417-6_1}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-319-39417-6_1}
+  International Publishing, Cham (2016)
 
 \bibitem{torben}
 Mogensen, T.Æ.: {Introduction to Compiler Design.}
-\newblock {Undergraduate Topics in Computer Science}. Springer (2011).
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-0-85729-829-4}
+\newblock {Undergraduate Topics in Computer Science}. Springer (2011)
 
 \bibitem{telos}
 Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
   Knowledge About Information Systems}.
-\newblock ACM Trans. Inf. Syst. \textbf{8}(4), 325--362 (1990).
-\newblock \doi{10.1145/102675.102676}.
-\newblock \urlprefix\url{http://doi.acm.org/10.1145/102675.102676}
+\newblock ACM Trans. Inf. Syst. \textbf{8}(4), 325--362 (1990)
 
 \bibitem{mofscript}
 Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., Berre, A.J.: {Toward
@@ -153,32 +126,24 @@ Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., Berre, A.J.: {Toward
 \newblock In: A.~Hartman, D.~Kreische (eds.) {Model Driven Architecture --
   Foundations and Applications: First European Conference, ECMDA-FA 2005,
   Nuremberg, Germany, November 7-10, 2005. Proceedings}, pp. 239--253. Springer
-  Berlin Heidelberg, Berlin, Heidelberg (2005).
-\newblock \doi{10.1007/11581741_18}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/11581741_18}
+  Berlin Heidelberg, Berlin, Heidelberg (2005)
 
 \bibitem{mda}
-OMG: {Model Driven Architecture (MDA) MDA Guide rev. 2.0} (2014).
-\newblock \urlprefix\url{http://www.omg.org/cgi-bin/doc?ormsc/14-06-01}
+OMG: {Model Driven Architecture (MDA) MDA Guide rev. 2.0} (2014)
 
 \bibitem{ocl}
-OMG: {Object Constraint Language (OCL), Version 2.4} (2014).
-\newblock \urlprefix\url{http://www.omg.org/spec/OCL/2.4}
+OMG: {Object Constraint Language (OCL), Version 2.4} (2014)
 
 \bibitem{uml}
-OMG: {Unified Modeling Language (UML), Superstructure, Version 2.5} (2015).
-\newblock \urlprefix\url{http://www.omg.org/spec/UML/2.5}
+OMG: {Unified Modeling Language (UML), Superstructure, Version 2.5} (2015)
 
 \bibitem{mof}
-OMG: {Meta Object Facility (MOF) Core Specification, Version 2.5.1} (2016).
-\newblock \urlprefix\url{http://www.omg.org/spec/MOF/2.5.1}
+OMG: {Meta Object Facility (MOF) Core Specification, Version 2.5.1} (2016)
 
 \bibitem{st}
 Parr, T.J.: {Enforcing Strict Model-view Separation in Template Engines}.
 \newblock In: {Proceedings of the 13th International Conference on World Wide
-  Web}, WWW '04, pp. 224--233. ACM, New York, NY, USA (2004).
-\newblock \doi{10.1145/988672.988703}.
-\newblock \urlprefix\url{http://doi.acm.org/10.1145/988672.988703}
+  Web}, WWW '04, pp. 224--233. ACM, New York, NY, USA (2004)
 
 \bibitem{semver}
 Preston, T.: {Semantic Versioning 2.0.0}.
@@ -191,9 +156,7 @@ Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {Constructing Models
   {Model Driven Engineering Languages and Systems: 11th International
   Conference, MoDELS 2008, Toulouse, France, September 28 - October 3, 2008.
   Proceedings}, pp. 249--263. Springer Berlin Heidelberg, Berlin, Heidelberg
-  (2008).
-\newblock \doi{10.1007/978-3-540-87875-9_18}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-87875-9_18}
+  (2008)
 
 \bibitem{egl}
 Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {The Epsilon Generation
@@ -201,9 +164,7 @@ Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {The Epsilon Generation
 \newblock In: I.~Schieferdecker, A.~Hartman (eds.) {Model Driven Architecture
   -- Foundations and Applications: 4th European Conference, ECMDA-FA 2008,
   Berlin, Germany, June 9-13, 2008. Proceedings}, pp. 1--16. Springer Berlin
-  Heidelberg, Berlin, Heidelberg (2008).
-\newblock \doi{10.1007/978-3-540-69100-6_1}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-69100-6_1}
+  Heidelberg, Berlin, Heidelberg (2008)
 
 \bibitem{cml-repo}
 dos Santos, Q.C.M.: {Conceptual Modeling Language - Source Code Repository}
@@ -224,26 +185,20 @@ Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
   Modelling and Foundations of Conceptual Modelling}.
 \newblock In: D.W. Embley, B.~Thalheim (eds.) {Handbook of Conceptual Modeling:
   Theory, Practice, and Research Challenges}, pp. 543--577. Springer Berlin
-  Heidelberg, Berlin, Heidelberg (2011).
-\newblock \doi{10.1007/978-3-642-15865-0_17}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-15865-0_17}
+  Heidelberg, Berlin, Heidelberg (2011)
 
 \bibitem{metaedit}
 Tolvanen, J.P.: {MetaEdit+: Domain-specific Modeling for Full Code Generation
   Demonstrated [GPCE]}.
 \newblock In: {Companion to the 19th Annual ACM SIGPLAN Conference on
   Object-oriented Programming Systems, Languages, and Applications}, OOPSLA
-  '04, pp. 39--40. ACM, New York, NY, USA (2004).
-\newblock \doi{10.1145/1028664.1028686}.
-\newblock \urlprefix\url{http://doi.acm.org/10.1145/1028664.1028686}
+  '04, pp. 39--40. ACM, New York, NY, USA (2004)
 
 \bibitem{torgersen}
 Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
 \newblock In: {Companion to the 22Nd ACM SIGPLAN Conference on Object-oriented
   Programming Systems and Applications Companion}, OOPSLA '07, pp. 852--853.
-  ACM, New York, NY, USA (2007).
-\newblock \doi{10.1145/1297846.1297922}.
-\newblock \urlprefix\url{http://doi.acm.org/10.1145/1297846.1297922}
+  ACM, New York, NY, USA (2007)
 
 \bibitem{jet}
 {van Emde Boas, Ghica}: Template programming for model-driven code generation.
@@ -255,30 +210,22 @@ Visic, N., Karagiannis, D.: {Developing Conceptual Modeling Tools Using a DSL}.
 \newblock In: R.~Buchmann, C.V. Kifor, J.~Yu (eds.) {Knowledge Science,
   Engineering and Management: 7th International Conference, KSEM 2014, Sibiu,
   Romania, October 16-18, 2014. Proceedings}, pp. 162--173. Springer
-  International Publishing, Cham (2014).
-\newblock \doi{10.1007/978-3-319-12096-6_15}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-319-12096-6_15}
+  International Publishing, Cham (2014)
 
 \bibitem{voelter}
 Voelter, M.: {Generic Tools, Specific Languages}.
-\newblock Ph.D. thesis, Delft University of Technology (2014).
-\newblock
-  \urlprefix\url{http://repository.tudelft.nl/view/ir/uuid%3A53c8e1e0-7a4c-43ed-9426-934c0a5a6522}
+\newblock Ph.D. thesis, Delft University of Technology (2014)
 
 \bibitem{owl2manchester}
-W3C: {OWL 2 Web Ontology Language. Manchester Syntax (Second Edition)} (2012).
-\newblock \urlprefix\url{http://www.w3.org/TR/owl2-manchester-syntax}
+W3C: {OWL 2 Web Ontology Language. Manchester Syntax (Second Edition)} (2012)
 
 \bibitem{owl2}
 W3C: {OWL 2 Web Ontology Language. Structural Specification and
-  Functional-Style Syntax (Second Edition)} (2012).
-\newblock \urlprefix\url{http://www.w3.org/TR/owl2-syntax}
+  Functional-Style Syntax (Second Edition)} (2012)
 
 \bibitem{wazlawick}
 Wazlawick, R.S.: {Object-Oriented Analysis and Design for Information Systems:
   Modeling with UML, OCL, and IFML}.
-\newblock Morgan Kaufmann (2014).
-\newblock
-  \urlprefix\url{http://www.sciencedirect.com/science/book/9780124186736}
+\newblock Morgan Kaufmann (2014)
 
 \end{thebibliography}
