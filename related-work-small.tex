@@ -1,0 +1,113 @@
+\section{Related Work}\label{sec:related}
+
+The following subsections compare CML to other languages, tools and frameworks
+that can also generate code from conceptual models.
+Each subsection covers a different category,
+enumerating specific solutions and characterizing their relevance to CML, and also their differences. 
+
+\subsection{Textual Languages}
+
+When compared to CML, the following languages are the most relevant,
+because they are all textual languages designed for code generation.
+
+MPS \cite{voelter} is a development environment for DSLs.
+Strictly speaking, its DSLs are not textual,
+since their AST is directly edited on projectional editors.
+However, the editors allow textual representations.
+The M Language \cite{mlang} was part of the discontinued Oslo project at Microsoft,
+which incorporated into Visual Studio similar capabilities to what is available on MPS.
+The M language allows the definition of DSLs for code generation. Unlike MPS, the DSLs are truly textual.
+Xtext/Xtend \cite{xtext} allows the definition of textual DSLs to generate code from conceptual models
+edited on Eclipse. It is similar to the Oslo project from Microsoft,
+and based on EMF \cite{emf} (discussed in subsection \ref{subsec:frameworks}.)
+MM-DSL \cite{mm-dsl} allows the definition of metamodels (abstract syntax),
+which serve as input to generate domain-specific modeling tools.
+XML may also be used for conceptual modeling,
+and XSLT then used to create the templates for code generation,
+as shown by Gheraibia et all \cite{xslt}.
+
+Observe that most of the solutions listed above enable modeling via DSLs,
+while CML is a generic language for modeling in any domain.
+
+\subsection{Graphical Languages}
+
+Despite CML being a textual language,
+the following graphical languages still have some relevance,
+because they have also been used to generate code in other target languages.
+
+MPS \cite{voelter}, 
+as show in the previous subsection,
+besides the textual models, 
+also allows the creation of graphical models.
+FCML \cite{fcml} incorporates and extends conceptual modeling languages (ER, UML, and BPMN)
+via the OMNILab tool in order to generate code.
+MetaEdit+ \cite{metaedit} is a development environment that allows the creation of modeling tools
+and code generators for visual DSLs.
+MDA \cite{mda} is the initiative from OMG to use UML \cite{uml} for model-driven development.
+IFML \cite{ifml} from OMG is a high-level language 
+that can be used to generate user interfaces on different platforms,
+such as the Web, or on mobile devices.
+
+The major drawback behind graphical languages,
+as covered in section \ref{sec:why},
+is their difficulty to integrate seamlessly with the workflow, tools and mindset of software developers.
+
+\subsection{Frameworks}\label{subsec:frameworks}
+
+Frameworks allow code generation from conceptual models, but lack a modeling language -- graphical or textual. 
+EMF \cite{emf} is a classical example,
+where modeling is done via editors on Eclipse or via a programming interface,
+and the models are stored in the ECORE/XML format. 
+
+Frameworks may also be used as the infrastructure of modeling languages.
+EMF, for example, is the framework supporting Xtext \cite{xtext}.
+Conceivably, other modeling languages may also target EMF.
+In fact, CML's extensible compiler allows the implementation of templates that target EMF.
+
+\subsection{Template Languages}
+
+As seen in previous sections,
+the CML compiler uses StringTemplate as the language for its code generation templates.
+There are other template languages designed for code generation from conceptual models.
+
+Xpand \cite{xpand} allows the definition of templates with multiple variability regions.
+EGL \cite{egl} is a language that allows code generation from models.
+MOFScript \cite{mofscript} allows code generation from models defined
+by any type of metamodel.
+JET \cite{jet} allows code generation from EMF \cite{emf} models.
+
+One strength of StringTemplate is its extensibility mechanisms.
+It is possible to define a core set of templates that define patterns, 
+and then extend them with the specifics of each target language or technology.
+It is also possible to share templates as libraries,
+which can be further extended for specific purposes by third-parties.
+Xpand also allows this level of extensibility.
+
+\subsection{Languages Supporting Associations}
+
+Just like CML,
+there are a number of programming languages that provide the ability to declare bidirectional associations.
+
+ASSOCIATION\# \cite{cardoso} is an extension to C\# that allows the modeling of associations.
+DSM \cite{balzer} is an object-oriented programming languages with support for associations.
+RelJ \cite{bierman} is a Java extension with support for associations.
+Fibonacci \cite{fibonacci}  is programming language for object-oriented databases
+that allow the modeling of association roles.
+
+One key drawback of the languages listed above is the fact that their conceptual models
+cannot be reused to generate code in any other language or technology;
+they are, for all intents and purposes, the target language.
+
+\subsection{Other Languages}
+
+There are also other conceptual languages whose original focus has not been to support code generation or implementation,
+but to serve solely as modeling artifacts.
+
+Languages, such as OWL \cite{owl2} and Telos \cite{telos}, have been designed as ontology metamodels
+to support the representation and storage of knowledge,
+and to allow automated reasoning from knowledgebases.
+OWL being the \emph{lingua franca} of the semantic web,
+while Telos has been created to store ontologies in a object-oriented database.
+Other languages, like UML \cite{uml} and ER \cite{er}, have been originally intended as tools to support the analysis and design of software systems, and only after sometime have been repurposed for model-driven software development.
+
+The relevance of these languages to CML comes from the expressivity power their metamodels provide for conceptual modeling. For that reason, when convenience and appropriate, CML should remain to expand its capabilities by borrowing features from these languages.
