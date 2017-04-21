@@ -5,7 +5,7 @@ Thus, the structural (static) elements of CML models can be transformed into UML
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{language/diagram-uml}
+\includegraphics[width=0.6\textwidth]{language/diagram-uml}
 \caption{The class diagram representing in UML  \cite{uml} the same CML model listed in figure \ref{fig:store}.}
 \label{fig:uml}
 \end{figure}
@@ -39,7 +39,7 @@ but they follow closely the OCL semantics.
 
 For example, the following CML expression (extracted from figure \ref{fig:store}) is a path-based navigation expression borrowed from OCL:
 
-\verbatimfont{\small}
+\verbatimfont{\scriptsize}
 \begin{verbatim}
 /orderedBooks = orders.items.book;
 \end{verbatim}
@@ -49,14 +49,14 @@ Using association properties, the expression above navigates from one instance o
 As another example,
 the following CML expression (also extracted from figure \ref{fig:store}) does not follow the OCL syntax:
 
-\verbatimfont{\small}
+\verbatimfont{\scriptsize}
 \begin{verbatim}
 /goldCustomers = customers | select totalSales > 1000;
 \end{verbatim}
 
 However, the expression above closely matches the semantics of the following OCL expression:
 
-\verbatimfont{\small}
+\verbatimfont{\scriptsize}
 \begin{verbatim}
 derive: customers->select(totalSales > 1000)
 \end{verbatim}
@@ -66,7 +66,7 @@ that have bought more than 1000 in the \emph{BookStore}.
 
 The OCL syntax for expressions that process collections of instances has the following general form:
 
-\verbatimfont{\small}
+\verbatimfont{\scriptsize}
 \begin{verbatim}
 collection->method_name(predicate or function)
 \end{verbatim}
@@ -81,7 +81,7 @@ similar to SQL \cite{sql} or C\#'s LINQ \cite{torgersen}.
  
 In CML, smaller expressions can also be combined into larger ones. For example:
  
-\verbatimfont{\small}
+\verbatimfont{\scriptsize}
 \begin{verbatim}
 /goldOrders = for order in bookStore.orders,
                   goldCustomer in bookStore.goldCustomers
