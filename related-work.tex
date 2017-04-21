@@ -12,15 +12,35 @@ When compared to CML, the following languages are the most relevant,
 because they are all textual languages designed for code generation:
 
 \begin{itemize}
-\item MPS \cite{voelter}
-\item Xtext/Xtend \cite{xtext}
-\item M Language \cite{mlang}
-\item MM-DSL \cite{mm-dsl}
-\item XML/XSLT \cite{xslt}
-\item IFML \cite{ifml}
+
+\item MPS \cite{voelter} is a development environment for DSLs.
+Strictly speaking, its DSLs are not textual,
+since their AST is directly edited on projectional editors.
+However, the editors allow textual representations.
+
+\item M Language \cite{mlang} was part of the discontinued Oslo project at Microsoft,
+which incorporated into Visual Studio similar capabilities to what is available on MPS.
+The M language allows the definition of DSLs for code generation. Unlike MPS, the DSLs are truly textual.
+
+\item Xtext/Xtend \cite{xtext} allows the definition of textual DSLs to generate code from conceptual models
+edited on Eclipse. It is similar to the Oslo project from Microsoft,
+and based on EMF \cite{emf} (discussed in subsection \ref{subsec:frameworks}.)
+
+\item MM-DSL \cite{mm-dsl} allows the definition of metamodels (abstract syntax),
+which serve as input to generate domain-specific modeling tools.
+
+\item XML may also be used for conceptual modeling,
+and XSLT then used to create the templates for code generation,
+as shown by Gheraibia et all \cite{xslt}.
+
+\item IFML \cite{ifml} from OMG is a high-level language 
+that can be used to generate user interfaces on different platforms,
+such as the Web, or on mobile devices.
+
 \end{itemize}
 
-Observe that most of the solutions listed above enable modeling via DSLs, while CML is a generic language for modeling in any domain.
+Observe that most of the solutions listed above enable modeling via DSLs,
+while CML is a generic language for modeling in any domain.
 
 \subsection{Graphical Languages}
 
@@ -30,8 +50,8 @@ the following graphical languages still have some relevance,
 because they have also been used to generate code in other target languages:
 
 \begin{itemize}
-\item MPS \cite{voelter}
-\item FCML \cite{fcml}
+\item MPS \cite{voelter} 
+\item FCML \cite{fcml} 
 \item MetaEdit+ \cite{metaedit}
 \item MDA \cite{mda}
 \end{itemize}
@@ -40,7 +60,7 @@ The major drawback behind graphical languages,
 as covered in section \ref{sec:why},
 is their difficulty to integrate seamlessly with the workflow, tools and mindset of software developers.
 
-\subsection{Frameworks}
+\subsection{Frameworks}\label{subsec:frameworks}
 
 Frameworks allow code generation from conceptual models, but lack a modeling language -- graphical or textual. 
 EMF \cite{emf} is a classical example,
