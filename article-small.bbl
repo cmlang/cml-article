@@ -216,9 +216,6 @@ Visic, N., Karagiannis, D.: {Developing Conceptual Modeling Tools Using a DSL}.
 Voelter, M.: {Generic Tools, Specific Languages}.
 \newblock Ph.D. thesis, Delft University of Technology (2014)
 
-\bibitem{owl2manchester}
-W3C: {OWL 2 Web Ontology Language. Manchester Syntax (Second Edition)} (2012)
-
 \bibitem{owl2}
 W3C: {OWL 2 Web Ontology Language. Structural Specification and
   Functional-Style Syntax (Second Edition)} (2012)
