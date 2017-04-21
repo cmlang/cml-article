@@ -27,13 +27,11 @@ The conceptual modeling language and extensible compiler presented here are an a
 While the latter is a fully integrated development environment based on domain-specific languages and their projectional editors\footnote{As explained by Voelter \cite{voelter}, projectional editors in MPS do not rely on parsers.
 Instead, the abstract syntax tree (AST) of the DSL is modified directly.
 The projection engine renders the visual representation of the AST based on the DSL editor definition.},
-the former (hereby called CML) is a compiler that has:
-\begin{itemize}
-\item as \emph{input}, source files defined using its own conceptual language,
+the former (hereby called CML) is a compiler that has,
+as \emph{input}, source files defined using its own conceptual language,
 which provides an abstract syntax similar to (but less comprehensive than) a combination of UML \cite{uml} and OCL \cite{ocl}; 
-\item and, as \emph{output}, any target languages based on extensible templates,
+and, as \emph{output}, any target languages based on extensible templates,
 which may be provided by the compiler's base libraries, by third-party libraries, or even by developers.
-\end{itemize}
 
 Both the CML language and compiler have been initially developed as part of the author's Computer Sciences Bachelor Technical Report (a citation will be provided once available),
 and they are now under development \cite{cml-repo} as an open source project.
