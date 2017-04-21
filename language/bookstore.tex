@@ -1,20 +1,16 @@
 \begin{figure}
-\verbatimfont{\small}
+\verbatimfont{\scriptsize}
 \begin{verbatim}
 concept BookStore
 {
-    books: Book+;
-    customers: Customer*;
-    orders: Order*;
+    books: Book+; customers: Customer*; orders: Order*;
     /goldCustomers = customers | select totalSales > 1000;
     /orderedBooks = orders.items.book;
 }
 
 concept Book
 {
-    title: String;
-    price: Decimal;
-    quantity: Integer = 0;
+    title: String; price: Decimal; quantity: Integer = 0;
 }
 
 concept Customer
@@ -35,6 +31,6 @@ association CustomerOrder
     Customer.orders: Order*;
 }
 \end{verbatim}
-\caption{The example above is adapted to CML from the fictional Livir bookstore, which is presented as a case study by Wazlawick \cite{wazlawick}.}
+\caption{Adapted to CML from the fictional Livir bookstore; a case study by Wazlawick \cite{wazlawick}.}
 \label{fig:store}
 \end{figure}
