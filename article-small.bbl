@@ -94,13 +94,9 @@ Jensen, K., Wirth, N.: {PASCAL User Manual and Report}.
 \bibitem{fcml}
 Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.:
   {Fundamental Conceptual Modeling Languages in OMiLAB}.
-\newblock In: D.~Karagiannis, H.C. Mayr, J.~Mylopoulos (eds.) {Domain-Specific
-  Conceptual Modeling: Concepts, Methods and Tools}, pp. 3--30. Springer
-  International Publishing (2016)
-
-\bibitem{torben}
-Mogensen, T.ï.: {Introduction to Compiler Design.}
-\newblock {Undergraduate Topics in Computer Science}. Springer (2011)
+\newblock In: D.~Karagiannis (ed.) {Domain-Specific Conceptual Modeling:
+  Concepts, Methods and Tools}, pp. 3--30. Springer International Publishing
+  (2016)
 
 \bibitem{telos}
 Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
@@ -110,8 +106,8 @@ Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
 \bibitem{mofscript}
 Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., Berre, A.J.: {Toward
   Standardised Model to Text Transformations}.
-\newblock In: A.~Hartman, D.~Kreische (eds.) {ECMDA-FA. Proceedings}, pp.
-  239--253. Springer Berlin Heidelberg (2005)
+\newblock In: A.~Hartman (ed.) {ECMDA-FA. Proceedings}, pp. 239--253. Springer
+  Berlin Heidelberg (2005)
 
 \bibitem{mda}
 OMG: {Model Driven Architecture (MDA) Guide rev. 2.0} (2014)
@@ -137,23 +133,18 @@ Preston, T.: {Semantic Versioning 2.0.0}.
 \bibitem{hutn}
 Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {Constructing Models
   with the Human-Usable Textual Notation}.
-\newblock In: K.~Czarnecki, I.~Ober, J.M. Bruel, A.~Uhl, M.~V{\"o}lter (eds.)
-  {MoDELS: 11th International Conference. Proceedings}, pp. 249--263. Springer
-  Berlin Heidelberg (2008)
+\newblock In: K.~Czarnecki (ed.) {MoDELS: 11th International Conference.
+  Proceedings}, pp. 249--263. Springer Berlin Heidelberg (2008)
 
 \bibitem{egl}
 Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {The Epsilon Generation
   Language}.
-\newblock In: I.~Schieferdecker, A.~Hartman (eds.) {ECMDA-FA: 4th European
-  Conference. Proceedings}, pp. 1--16. Springer Berlin Heidelberg (2008)
+\newblock In: I.~Schieferdecker (ed.) {ECMDA-FA: 4th European Conference.
+  Proceedings}, pp. 1--16. Springer Berlin Heidelberg (2008)
 
 \bibitem{cml-repo}
 dos Santos, Q.C.M.: {CML Project} (2017).
 \newblock \urlprefix\url{http://github.com/orgs/cmlang}
-
-\bibitem{cml-spec}
-dos Santos, Q.C.M.: {CML Specification} (2017).
-\newblock \urlprefix\url{http://github.com/cmlang/cml-specification}
 
 \bibitem{emf}
 Steinberg, D., Budinsky, F., Merks, E., Paternostro, M.: {EMF: eclipse modeling
@@ -183,9 +174,8 @@ Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
 
 \bibitem{mm-dsl}
 Visic, N., Karagiannis, D.: {Developing Conceptual Modeling Tools Using a DSL}.
-\newblock In: R.~Buchmann, C.V. Kifor, J.~Yu (eds.) {KSEM: 7th International
-  Conference. Proceedings}, pp. 162--173. Springer International Publishing
-  (2014)
+\newblock In: R.~Buchmann (ed.) {KSEM: 7th International Conference.
+  Proceedings}, pp. 162--173. Springer International Publishing (2014)
 
 \bibitem{voelter}
 Voelter, M.: {Generic Tools, Specific Languages}.
