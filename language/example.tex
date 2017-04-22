@@ -1,7 +1,7 @@
 \subsection{An Example}\label{subsec:example}
 
-On the example of figure \ref{fig:store}, some concepts, such as \emph{Book} and \emph{Customer}, are declared in CML. 
-The block-based syntax declaring each concept resembles the C \cite{clang} language's syntax. 
+On the example of figure \ref{fig:store}, some concepts, such as \emph{Book} and \emph{Customer}, are declared in CML.
+The block-based syntax declaring each concept resembles the C \cite{clang} language's syntax.
 Each concept declares a list of properties.
 The property declarations are based on the Pascal \cite{pascal} style for variable declarations,
 where the name is followed by a colon (``:'') and then the type declaration.
@@ -9,15 +9,13 @@ Part of the CML syntax for expressions, such as the expression in \emph{BookStor
 
 \input{language/bookstore.tex}
 
-Some examples of the key language features shown in the figure \ref{fig:store} are:
-\begin{itemize}
-\item concepts: \emph{Book} and \emph{Customer};
-\item attributes: \emph{title} and \emph{price} under the \emph{Book} concept;  
-\item derived attributes: \emph{totalSales} under the \emph{Customer} concept;
-\item unidirectional associations: the \emph{books} and \emph{customers} properties as declared under the \emph{BookStore} concept are used to represent unidirectional associations (in UML \cite{uml}, they would correspond to the association roles);
-\item bidirectional associations: \emph{CustomerOrder},
-which binds two unidirectional associations (represented by the \emph{orders} property under the \emph{Customer} concept and by the \emph{customer} property under the \emph{Order} concept) into a single bidirectional association;
-\item derived associations: declared as the \emph{goldCustomers} and \emph{orderedBooks} properties under the \emph{BookStore} concept.
-\end{itemize}
-
-These language features will be defined in the subsection \ref{subsec:metamodel}.
+Figure \ref{fig:store} shows some examples of the key CML features:
+\emph{Book} and \emph{Customer} are concepts;
+\emph{title} and \emph{price} under the \emph{Book} concept are attributes;
+\emph{totalSales} under the \emph{Customer} concept is a derived attribute;
+the \emph{books} and \emph{customers} properties declared under the \emph{BookStore} concept represent unidirectional associations (in UML \cite{uml}, they would correspond to the association roles);
+\emph{CustomerOrder} binds two unidirectional associations
+(represented by the \emph{orders} property under the \emph{Customer} concept
+and by the \emph{customer} property under the \emph{Order} concept)
+into a single bidirectional association;
+the \emph{goldCustomers} and \emph{orderedBooks} properties under the \emph{BookStore} concept are examples of derived associations. These language features will be defined in the subsection \ref{subsec:metamodel}.
