@@ -10,33 +10,29 @@ Thus, the structural (static) elements of CML models can be transformed into UML
 \label{fig:uml}
 \end{figure}
 
-In the UML class diagram of figure \ref{fig:uml}:
-\begin{itemize}
-\item the CML concepts (\emph{BookStore}, \emph{Book}, \emph{Customer} and \emph{Order}) are mapped to corresponding UML classes;
-\item the CML properties that represent attributes
+In the UML class diagram of figure \ref{fig:uml},
+the CML concepts (\emph{BookStore}, \emph{Book}, \emph{Customer} and \emph{Order})
+are mapped to corresponding UML classes.
+The CML properties that represent attributes
 (such as \emph{title}, \emph{quantity} and \emph{price} of \emph{Book})
-are mapped to corresponding UML attributes under each class;
-\item the CML properties that represent unidirectional associations
+are mapped to corresponding UML attributes under each class.
+The CML properties that represent unidirectional associations
 (\emph{books}, \emph{customers}, and \emph{goldCustomers} of \emph{BookStore})
 are mapped to UML associations with corresponding roles
-(showing the navigability direction, and matching the property names);
-\item the CML bidirectional association \emph{CustomerOrder}
+(showing the navigability direction, and matching the property names).
+The CML bidirectional association \emph{CustomerOrder}
 (comprised by two CML properties: \emph{Customer.orders} and \emph{Order.customer})
 is mapped to a UML association with bidirectional navigability (no direction arrow).
-\end{itemize}
-
 As demonstrated by this example,
 CML strives to enable modeling at the same conceptual level as allowed by UML.
 When compared to the UML metamodel,
-the CML metamodel supports only a core set of its elements (as shown in subsection \ref{subsec:metamodel}).
-This minimally viable core has been intentionally designed to validate CML's objectives.
+the CML metamodel supports only a core set of its elements, as shown in subsection \ref{subsec:metamodel}.
 
 Besides the structural elements of a conceptual model (as seen above),
 CML also permits the use of expressions to set initial values to attributes,
 and to define derived properties for both attributes and associations.
 These expressions are partially based on the OCL \cite{ocl} syntax,
 but they follow closely the OCL semantics.
-
 For example, the following CML expression (extracted from figure \ref{fig:store}) is a path-based navigation expression borrowed from OCL:
 
 \verbatimfont{\scriptsize}
@@ -44,8 +40,7 @@ For example, the following CML expression (extracted from figure \ref{fig:store}
 /orderedBooks = orders.items.book;
 \end{verbatim}
 
-Using association properties, the expression above navigates from one instance of \emph{BookStore}, passing through all linked \emph{orders}, and then through all \emph{items} of all \emph{orders}, in order to return all books that have been ordered. 
-
+Using association properties, the expression above navigates from one instance of \emph{BookStore}, passing through all linked \emph{orders}, and then through all \emph{items} of all \emph{orders}, in order to return all books that have been ordered.
 As another example,
 the following CML expression (also extracted from figure \ref{fig:store}) does not follow the OCL syntax:
 
@@ -62,7 +57,7 @@ derive: customers->select(totalSales > 1000)
 \end{verbatim}
 
 Both the CML expression and the OCL excerpt above evaluate to a set of \emph{Customer} instances
-that have bought more than 1000 in the \emph{BookStore}. 
+that have bought more than 1000 in the \emph{BookStore}.
 
 The OCL syntax for expressions that process collections of instances has the following general form:
 
@@ -78,25 +73,20 @@ because it intends to be agnostic towards programming paradigms.
 Since CML uses collection expressions to define derived attributes and associations,
 its syntax to manipulate collections is more declarative,
 similar to SQL \cite{sql} or C\#'s LINQ \cite{torgersen}.
- 
+
 In CML, smaller expressions can also be combined into larger ones. For example:
- 
+
 \verbatimfont{\scriptsize}
 \begin{verbatim}
-/goldOrders = for order in bookStore.orders,
-                  goldCustomer in bookStore.goldCustomers
+/goldOrders = for order in bookStore.orders, goldCustomer in bookStore.goldCustomers
                | select order.customer = goldCustomer
                | yield unique order
  \end{verbatim}
 
 In the example above, all \emph{orders} from \emph{goldCustomers} are returned.
-In order to find them, the sub-expressions are sequentially evaluated as follows:
-
-\begin{itemize}
-\item the \emph{for} expression provides a collection of all (\emph{order}, \emph{goldCustomer}) pairs;
-\item the \emph{select} expression then keeps only the pairs that have matching customers;
-\item finally, the \emph{yield} expression will map the collection of selected pairs into a set of unique \emph{orders}.
-\end{itemize}
-
+In order to find them, the sub-expressions are evaluated sequentially.
+The \emph{for} expression provides a collection of all (\emph{order}, \emph{goldCustomer}) pairs.
+Then, the \emph{select} expression then keeps only the pairs that have matching customers.
+Finally, the \emph{yield} expression will map the collection of selected pairs into a set of unique \emph{orders}.
 Sub-expressions like \emph{for}, \emph{select} and \emph{yield} can be combined in different configurations
 in order to derive any required attributes and associations.
