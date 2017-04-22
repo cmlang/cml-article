@@ -4,35 +4,26 @@ Thalheim \cite{thalheim} has observed that
 the choice of a conceptual modeling language has to do with its purpose.
 He suggests that
 a language is just a \emph{carrier} mapping some properties of the \emph{origin} (the problem space)
-that can provide utility to its users. 
+that can provide utility to its users.
 
 In this context, the purpose of the CML language is being a tool
 that allows software developers to transform text-based conceptual models
 into executable code of an extensible range of technologies.
 In order to achieve this purpose,
-a new language is designed with the high-level goals presented in the following subsections.
+a new language is designed with the following goals:
 
-\subsection{Developer Experience}
+\begin{itemize}
 
-CML follows the principle laid out on the \emph{Conceptual-Model Programming} (CMP) manifesto \cite{cmp}:
-
-\begin{quote}
-``Conceptual modeling is programming.
-The conceptual-model instance is the code,
-i.e., instead of `the code is the model,'
-the phrase now becomes `the model is the code.'
-A conceptual-model compiler assures that program execution corresponds to the conceptual specification,
-thus making the conceptual-model instance directly executable.''
-\end{quote}
-
+\item \emph{Developer Experience}:
+CML follows the principle ``the model is the code'' as laid out on the \emph{Conceptual-Model Programming} (CMP) manifesto \cite{cmp}.
 Furthermore,
-CML is also intended to enable software developers to do \emph{conceptual modeling} on the same workflow they are used to doing \emph{programming}.
+CML is also intended to enable software developers to do \emph{conceptual modeling}
+on the same workflow they are used to doing \emph{programming}.
 CML strives to \emph{not only be} the code (as advocated by CMP),
 but also \emph{look like} code (syntactically speaking),
 pursuing compatibility with developers' mindset, toolset and workflow.
 By providing its own syntax based on existing programming languages,
-CML then promotes the \emph{modeling-as-programming} approach. 
-
+CML then promotes the \emph{modeling-as-programming} approach.
 The UML \cite{uml} notation, on the other hand,
 being graphical,
 is not suited for mainstream, textual programming.
@@ -40,22 +31,22 @@ However, the \emph{Human Usable Textual Notation} (HUTN) \cite{hutn} is a textua
 and as such, it can also be used for UML models.
 The syntax of the structural (static) elements of CML models is based on HUTN.
 
-\subsection{Language Evolution}
-
+\item \emph{Language Evolution}:
 CML is expected to evolve with its compiler, and the tooling around it.
 Unlike the expressive power seen on UML \cite{uml} and OWL 2 \cite{owl2} with their breadth of features,
 the CML language and its extensible compiler intentionally support a limited number of features and scenarios.
-
 This first version has been designed for the initial validation of the model-driven development approach taken by CML.
 As developers provide feedback,
 new language features may be iteratively added in order to enable the extensible CML compiler to support new modeling/development scenarios.
 
-\subsection{Extensible Target Generation}
-
+\item \emph{Extensible Target Generation}:
 Some of the language features enable the generation of code into a wide range of target languages and technologies. Among the features that must be provided by the CML language,
 there is the ability to break models into modules that can be shared as libraries;
 to specify different code generation targets;
 and to annotate model elements in order to provide more information for specific targets during code generation.
-
 In order to support code generation, these language features must be available in a single language, so that they can be compatible with each other and with the compiler backend.
 
+\end{itemize}
+
+Section \ref{sec:related} provides further motivation for developing CML,
+comparing it to related work.
