@@ -16,14 +16,14 @@ are presented below:
 \begin{itemize}
 
 \item \emph{Frontend:} receives as input the \emph{CML source files}.
-It will parse the files and generate an internal representation of the \emph{CML model}.
-Syntactical and semantic validations will be executed at this point.
+It parses the files and generates an internal representation of the \emph{CML model}.
+Syntactical and semantic validations are then executed.
 Any errors are presented to the developer, interrupting the progress to the next phase.
 If the \emph{source files} are parsed and validated successfully, then an internal representation (AST) of the \emph{CML model} is generated.
 The AST serves then as the input for the \emph{backend} component.
 
 \item \emph{Backend:} receives the \emph{CML model AST} as input.
 Based on the \emph{target specification} provided by the AST, chooses which \emph{extensible templates} to use for code generation.
-The \emph{target files} are then generated, and become available to be consumed by other tools. The \emph{target specification} plays a key role in order to determine the kind of \emph{target} to be generated, and it is presented in subsection \ref{subsec:templates}.
+The \emph{target files} are then generated, and become available to be consumed by other tools. The \emph{target specification} plays a key role in determining the kind of \emph{target} to be generated.
 
 \end{itemize}

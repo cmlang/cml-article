@@ -14,7 +14,7 @@ reduces the time and cost for changes and maintenance and produces results that 
 MDA provides guidance and standards in order to realize this vision,
 but it leaves to software vendors the task of providing the tools that automate the process of generating the implementations from the models.
 The key role played by tools has been demonstrated by Voelter \cite{voelter} in his \emph{Generic Tools, Specific Languages} approach for model-driven software development.
-Voelter \cite{voelter} has used domain-specific languages (DSLs) with the Metaprogramming System (MPS) in order to generate the software artifacts.
+Voelter \cite{voelter} has used domain-specific languages (DSLs) with the Metaprogramming System (MPS) in order to generate software artifacts.
 Unlike MDA, which is based on UML/MOF models,
 MPS allows the specification of models using domain-specific editors.
 
@@ -26,8 +26,9 @@ MPS renders the visual representation of the AST based on the DSL editor definit
 the former (hereby called CML) is a compiler that has,
 as \emph{input}, source files defined using its own conceptual language,
 which provides an abstract syntax similar to (but less comprehensive than) a combination of UML \cite{uml} and OCL \cite{ocl};
-and, as \emph{output}, any target languages based on extensible templates,
-which may be provided by the compiler's base libraries, by third-party libraries, or even by developers. Both the CML language and compiler have been initially developed as part of the author's Computer Sciences Bachelor Technical Report (a citation will be provided once available),
+and, as \emph{output}, any target languages,
+based on extensible templates that may be provided by the compiler's base libraries, by third-party libraries, or even by developers. Both the CML language and compiler have been initially developed as part of the author's Computer Sciences Bachelor Technical Report
+(a citation will be provided once available, before the publicaton of this article),
 and they are now under development \cite{cml-repo} as an open source project.
 
 Section \ref{sec:why} explains the motivation for creating yet another language for conceptual modeling.

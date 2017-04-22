@@ -11,7 +11,13 @@ in order to present the key elements of the CML metamodel,
 a similar approach to Gogolla's is used to map the CML metamodel to the ER metamodel,
 and to the UML/OCL metamodel.
 
-The EMOF \cite{mof} model presented by figure \ref{fig:metamodel} is a simplified version of the CML metamodel:
+The EMOF \cite{mof} model presented by figure \ref{fig:metamodel} is a simplified version of the CML metamodel.
+As shown, a \emph{Concept} is composed of zero-or-more \emph{Property} instances.
+Each \emph{Property} may have a \emph{Type} and an \emph{Expression}.
+If two \emph{Property} instances represent the same bidirectional association,
+there must be an \emph{Association} instance that binds them.
+Unidirectional associations are only represented by the \emph{Property} instance (actually representing the association role)
+that enables the navigation from the source \emph{Concept} instance to the target one, which is represented by the property's \emph{Type}.
 
 \begin{figure}
 \centering
@@ -19,14 +25,6 @@ The EMOF \cite{mof} model presented by figure \ref{fig:metamodel} is a simplifie
 \caption{This class diagram renders the EMOF \cite{mof} model defining the CML metamodel.}
 \label{fig:metamodel}
 \end{figure}
-
-In CML metamodel shown in figure \ref{fig:metamodel},
-a \emph{Concept} is composed of zero-or-more \emph{Property} instances.
-Each \emph{Property} may have a \emph{Type} and an \emph{Expression}.
-If two \emph{Property} instances represent the same bidirectional association,
-there must be an \emph{Association} instance that binds them.
-Unidirectional associations are only represented by the \emph{Property} instance (representing the association role)
-that enables the navigation from the source \emph{Concept} instance to the target one (which is represented by the property's \emph{Type}.)
 
 Next, there is a description for the key metamodel elements.
 
@@ -38,6 +36,9 @@ They aggregate attributes and cannot be described as primitive values.
 They may also be associated with other concepts.
 On the ER metamodel, it is known as \emph{entity};
 on the UML metamodel, as \emph{class}.
+The CML \emph{concept} differs, however, from the UML \emph{class},
+because it has only \emph{properties},
+while the UML \emph{class} may also have \emph{operations}.
 
 \item \emph{Property}: May hold values of primitive types, in which case they represent an attribute on the \emph{ER} and \emph{UML} metamodels;
 or may hold references (or collections of references) linking to instances of other concepts.
@@ -50,6 +51,6 @@ so that the association links are accessible from each association end participa
 It directly represents in the CML metamodel what normally requires additional implementation in programming languages.
 It is inspired\footnote{The syntax used in CML resembles the syntax of a \emph{struct} in C \cite{clang}, while Cardoso \cite{cardoso} uses a verbose syntax. Also, unlike CML, Cardoso does \emph{not} bind properties that represent each association end; instead, associations -- unidirectional or bidirectional -- are declared independently of class properties.} on the work of Cardoso \cite{cardoso}, which extends the C\# language to represent bidirectional associations; it is also inspired on the work of Balzer et. al. \cite{balzer}, which uses \emph{member interposition} to model relationships.
 
-\item \emph{Type}: They may be primitive types (such as Boolean, String, and Decimal), references to concept instances, or still collections of concepts, depending on the \emph{cardinality} property. They may also be optional, meaning their value may or may not have been set; also defined by the \emph{cardinality} property.
+\item \emph{Type}: They may be primitive types (such as Boolean, String, and Decimal), references to concept instances, or still collections of references, depending on the \emph{cardinality} property. They may also be optional, meaning their value may or may not have been set; also defined by the \emph{cardinality} property.
 
 \end{itemize}
