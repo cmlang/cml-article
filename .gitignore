@@ -3,3 +3,5 @@
 *.blg
 *.synctex.gz
 *-eps-converted-to.pdf
+*.fls
+*.fdb_latexmk
