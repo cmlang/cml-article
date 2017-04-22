@@ -14,16 +14,15 @@ reduces the time and cost for changes and maintenance and produces results that 
 MDA provides guidance and standards in order to realize this vision,
 but it leaves to software vendors the task of providing the tools that automate the process of generating the implementations from the models.
 The key role played by tools has been demonstrated by Voelter \cite{voelter} in his \emph{Generic Tools, Specific Languages} approach for model-driven software development.
-Voelter \cite{voelter} has used domain-specific languages (DSL's) with the Metaprogramming System (MPS) in order to generate the software artifacts.
+Voelter \cite{voelter} has used domain-specific languages (DSLs) with the Metaprogramming System (MPS) in order to generate the software artifacts.
 Unlike MDA, which is based on UML/MOF models,
 MPS allows the specification of models using domain-specific editors.
-MPS itself is a generic tool,
-but it enables the definition of the abstract syntax, the editors and the code generators for DSL's.
 
 The conceptual modeling language and extensible compiler presented here are an alternative approach to MPS.
-While the latter is a fully integrated development environment based on domain-specific languages and their projectional editors\footnote{As explained by Voelter \cite{voelter}, projectional editors in MPS do not rely on parsers.
-Instead, the abstract syntax tree (AST) of the DSL is modified directly.
-The projection engine renders the visual representation of the AST based on the DSL editor definition.},
+While the latter is a fully integrated development environment based on domain-specific languages and their projectional editors\footnote{Projectional
+editors in MPS do not rely on parsers.
+Instead, the abstract syntax tree (AST) is modified directly.
+MPS renders the visual representation of the AST based on the DSL editor definition.},
 the former (hereby called CML) is a compiler that has,
 as \emph{input}, source files defined using its own conceptual language,
 which provides an abstract syntax similar to (but less comprehensive than) a combination of UML \cite{uml} and OCL \cite{ocl};
