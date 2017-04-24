@@ -1,0 +1,209 @@
+\begin{thebibliography}{}
+
+\bibitem[Albano et~al. 1993]{fibonacci}
+Albano, A., Bergamini, R., Ghelli, G., and Orsini, R. (1993).
+\newblock An object data model with roles.
+\newblock In {\em VLDB}, volume~93, pages 39--51.
+
+\bibitem[Balzer et~al. 2007]{balzer}
+Balzer, S., Gross, T.~R., and Eugster, P. (2007).
+\newblock {A Relational Model of Object Collaborations and Its Use in Reasoning
+  About Relationships}.
+\newblock In Ernst, E., editor, {\em {ECOOP: 21st European Conference.
+  Proceedings}}, pages 323--346. Springer Berlin Heidelberg.
+
+\bibitem[Bettini 2016]{xtext}
+Bettini, L. (2016).
+\newblock {\em Implementing domain-specific languages with Xtext and Xtend}.
+\newblock Packt Publishing Ltd.
+
+\bibitem[Bierman and Wren 2005]{bierman}
+Bierman, G. and Wren, A. (2005).
+\newblock {First-Class Relationships in an Object-Oriented Language}.
+\newblock In Black, A.~P., editor, {\em {ECOOP 2005: 19th European Conference.
+  Proceedings}}, pages 262--286. Springer Berlin Heidelberg.
+
+\bibitem[Brambilla et~al. 2014]{ifml}
+Brambilla, M., Mauri, A., and Umuhoza, E. (2014).
+\newblock {Extending the Interaction Flow Modeling Language (IFML) for Model
+  Driven Development of Mobile Applications Front End}.
+\newblock In Awan, I., editor, {\em {MobiWIS 11th. Proceedings}}, pages
+  176--191. Springer.
+
+\bibitem[Bruneli{\`e}re et~al. 2010]{mlang}
+Bruneli{\`e}re, H., Cabot, J., Clasen, C., Jouault, F., and B{\'e}zivin, J.
+  (2010).
+\newblock {Towards Model Driven Tool Interoperability}.
+\newblock In K{\"u}hne, T., editor, {\em {ECMFA 6th. Proceedings}}, pages
+  32--47. Springer Berlin Heidelberg.
+
+\bibitem[Cardoso 2011]{cardoso}
+Cardoso, I.~S. (2011).
+\newblock {Inserindo suporte a declara{\c{c}}{\~a}o de associa{\c{c}}{\~o}es da
+  UML 2 em uma linguagem de programa{\c{c}}{\~a}o orientada a objetos}.
+\newblock Master's thesis, Universidade Federal de Santa Catarina.
+
+\bibitem[Chen 2011]{er}
+Chen, P. P.-S. (2011).
+\newblock {The Entity-Relationship Model (Reprinted Historic Data)}.
+\newblock In Embley, D.~W., editor, {\em Handbook of Conceptual Modeling},
+  pages 57--84. Springer Berlin Heidelberg.
+
+\bibitem[dos Santos 2017]{cml-repo}
+dos Santos, Q. C.~M. (2017).
+\newblock {CML Project}.
+
+\bibitem[Embley et~al. 2011]{cmp}
+Embley, D.~W., Liddle, S.~W., and Pastor, O. (2011).
+\newblock {Conceptual-Model Programming: A Manifesto}.
+\newblock In Embley, D.~W., editor, {\em {Handbook of Conceptual Modeling}},
+  pages 3--16. Springer Berlin Heidelberg.
+
+\bibitem[Gaffney and Cruickshank 1992]{gaffney}
+Gaffney, Jr., J.~E. and Cruickshank, R.~D. (1992).
+\newblock {A General Economics Model of Software Reuse}.
+\newblock In {\em {Proceedings of the 14th International Conference on Software
+  Engineering}}, ICSE '92, pages 327--337. ACM, New York, NY, USA.
+
+\bibitem[Gheraibia and Bourouis 2012]{xslt}
+Gheraibia, Y. and Bourouis, A. (2012).
+\newblock {Ontology and automatic code generation on modeling and simulation}.
+\newblock In {\em {6th SETIT. Proceedings}}, pages 69--73.
+
+\bibitem[Gogolla and Thalheim 2011]{gogolla}
+Gogolla, M. and Thalheim, B. (2011).
+\newblock {UML and OCL in Conceptual Modeling}.
+\newblock In Embley, D.~W., editor, {\em Handbook of Conceptual Modeling},
+  pages 85--122. Springer Berlin Heidelberg.
+
+\bibitem[Greifenberg et~al. 2016]{xpand}
+Greifenberg, T., M{\"{u}}ller, K., Roth, A., Rumpe, B., Schulze, C., and
+  Wortmann, A. (2016).
+\newblock {Modeling Variability in Template-based Code Generators for Product
+  Line Engineering}.
+\newblock {\em CoRR}, abs/1606.02903.
+
+\bibitem[{ISO} 2011]{clang}
+{ISO} (2011).
+\newblock {\em {ISO/IEC 9899:2011 Programming languages --- C}}.
+\newblock International Organization for Standardization.
+
+\bibitem[ISO 2016]{sql}
+ISO (2016).
+\newblock {IEC 9075-1: 2003 (E) Database languages --- SQL Part 1: Framework
+  (SQL/Framework)}.
+
+\bibitem[Jensen and Wirth 1974]{pascal}
+Jensen, K. and Wirth, N. (1974).
+\newblock {\em {PASCAL User Manual and Report}}.
+\newblock Springer-Verlag New York, Inc.
+
+\bibitem[Karagiannis et~al. 2016]{fcml}
+Karagiannis, D., Buchmann, R.~A., Burzynski, P., Reimer, U., and Walch, M.
+  (2016).
+\newblock {Fundamental Conceptual Modeling Languages in OMiLAB}.
+\newblock In Karagiannis, D., editor, {\em {Domain-Specific Conceptual
+  Modeling: Concepts, Methods and Tools}}, pages 3--30. Springer International
+  Publishing.
+
+\bibitem[Mylopoulos et~al. 1990]{telos}
+Mylopoulos, J., Borgida, A., Jarke, M., and Koubarakis, M. (1990).
+\newblock {Telos: Representing Knowledge About Information Systems}.
+\newblock {\em ACM TIS}, 8(4):325--362.
+
+\bibitem[Oldevik et~al. 2005]{mofscript}
+Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., and Berre, A.-J. (2005).
+\newblock {Toward Standardised Model to Text Transformations}.
+\newblock In Hartman, A., editor, {\em {ECMDA-FA. Proceedings}}, pages
+  239--253. Springer Berlin Heidelberg.
+
+\bibitem[OMG 2014a]{mda}
+OMG (2014a).
+\newblock {Model Driven Architecture (MDA) Guide rev. 2.0}.
+
+\bibitem[OMG 2014b]{ocl}
+OMG (2014b).
+\newblock {Object Constraint Language (OCL), Version 2.4}.
+
+\bibitem[OMG 2015]{uml}
+OMG (2015).
+\newblock {Unified Modeling Language (UML), Superstructure, Version 2.5}.
+
+\bibitem[OMG 2016]{mof}
+OMG (2016).
+\newblock {Meta Object Facility (MOF) Core Specification, Version 2.5.1}.
+
+\bibitem[Parr 2004]{st}
+Parr, T.~J. (2004).
+\newblock {Enforcing Strict Model-view Separation in Template Engines}.
+\newblock In {\em {Proceedings of the 13th International Conference on World
+  Wide Web}}, WWW '04, pages 224--233. ACM, New York, NY, USA.
+
+\bibitem[Preston ]{semver}
+Preston, T.
+\newblock {Semantic Versioning 2.0.0}.
+
+\bibitem[Rose et~al. 2008a]{hutn}
+Rose, L.~M., Paige, R.~F., Kolovos, D.~S., and Polack, F. A.~C. (2008a).
+\newblock {Constructing Models with the Human-Usable Textual Notation}.
+\newblock In Czarnecki, K., editor, {\em {MoDELS: 11th International
+  Conference. Proceedings}}, pages 249--263. Springer Berlin Heidelberg.
+
+\bibitem[Rose et~al. 2008b]{egl}
+Rose, L.~M., Paige, R.~F., Kolovos, D.~S., and Polack, F. A.~C. (2008b).
+\newblock {The Epsilon Generation Language}.
+\newblock In Schieferdecker, I., editor, {\em {ECMDA-FA: 4th European
+  Conference. Proceedings}}, pages 1--16. Springer Berlin Heidelberg.
+
+\bibitem[Steinberg et~al. 2008]{emf}
+Steinberg, D., Budinsky, F., Merks, E., and Paternostro, M. (2008).
+\newblock {\em {EMF: eclipse modeling framework}}.
+\newblock Pearson Education.
+
+\bibitem[Thalheim 2011]{thalheim}
+Thalheim, B. (2011).
+\newblock {The Theory of Conceptual Models, the Theory of Conceptual Modelling
+  and Foundations of Conceptual Modelling}.
+\newblock In Embley, D.~W., editor, {\em {Handbook of Conceptual Modeling}},
+  pages 543--577. Springer Berlin Heidelberg.
+
+\bibitem[Tolvanen 2004]{metaedit}
+Tolvanen, J.-P. (2004).
+\newblock {MetaEdit+: Domain-specific Modeling for Full Code Generation
+  Demonstrated}.
+\newblock In {\em {Companion to the 19th Annual ACM SIGPLAN Conference}},
+  OOPSLA '04, pages 39--40, New York, NY, USA. ACM.
+
+\bibitem[Torgersen 2007]{torgersen}
+Torgersen, M. (2007).
+\newblock {Querying in C\#: How Language Integrated Query (LINQ) Works}.
+\newblock In {\em {Companion to the 22Nd ACM SIGPLAN Conference}}, OOPSLA '07,
+  pages 852--853, New York, NY, USA. ACM.
+
+\bibitem[{van Emde Boas, Ghica} 2004]{jet}
+{van Emde Boas, Ghica} (2004).
+\newblock Template programming for model-driven code generation.
+\newblock In {\em {19th Annual ACM SIGPLAN Conference}}.
+
+\bibitem[Visic and Karagiannis 2014]{mm-dsl}
+Visic, N. and Karagiannis, D. (2014).
+\newblock {Developing Conceptual Modeling Tools Using a DSL}.
+\newblock In Buchmann, R., editor, {\em {KSEM: 7th International Conference.
+  Proceedings}}, pages 162--173. Springer International Publishing.
+
+\bibitem[Voelter 2014]{voelter}
+Voelter, M. (2014).
+\newblock {\em {Generic Tools, Specific Languages}}.
+\newblock PhD thesis, Delft University of Technology.
+
+\bibitem[W3C 2012]{owl2}
+W3C (2012).
+\newblock {OWL 2 Structural Specification and Functional-Style Syntax (Second
+  Edition)}.
+
+\bibitem[Wazlawick 2014]{wazlawick}
+Wazlawick, R.~S. (2014).
+\newblock {\em {Object-Oriented Analysis and Design for Information Systems}}.
+\newblock Morgan Kaufmann.
+
+\end{thebibliography}

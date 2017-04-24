@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+%
+% to typeset URLs, URIs, and DOIs
+\usepackage{url}
+\def\UrlFont{\rmfamily}
+%
+% Footnotes:
+\usepackage[bottom]{footmisc}
+%
+% Images:
+ \usepackage{graphicx}
+%
+\makeatletter
+\newcommand{\verbatimfont}[1]{\renewcommand{\verbatim@font}{\ttfamily#1}}
+\makeatother
+%
+\sloppy
+
+\title{Reusing Conceptual Models:\\Language and Extensible Compiler}
+\author{Quenio Cesar Machado dos Santos\inst{1} \and Raul Sidnei Wazlawick\inst{2}}
+\address{Computer Sciences,\\
+UFSC - Universidade Federal de Santa Catarina, Brazil,
+\nextinstitute
+Associate Professor of Computer Sciences Department,\\
+UFSC - Universidade Federal de Santa Catarina, Brazil
+\email{queniodossantos@gmail.com, raul@inf.ufsc.br}
+}
+
+\begin{document}
+
+\maketitle              % typeset the title of the contribution
+
+\input{abstract-sbc.tex}
+\input{intro-small.tex}
+\input{why-small.tex}
+\input{language/language-small.tex}
+\input{compiler/compiler.tex}
+\input{related-work-small.tex}
+\input{conclusion.tex}
+%
+\bibliographystyle{sbc}
+\bibliography{references-small}
+%
+\end{document}
