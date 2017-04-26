@@ -15,7 +15,7 @@ Albano, A., Bergamini, R., Ghelli, G., Orsini, R.: An object data model with
 Balzer, S., Gross, T.R., Eugster, P.: {A Relational Model of Object
   Collaborations and Its Use in Reasoning About Relationships}.
 \newblock In: E.~Ernst (ed.) {ECOOP: 21st European Conference. Proceedings},
-  pp. 323--346. Springer Berlin Heidelberg (2007)
+  pp. 323--346. Springer (2007)
 
 \bibitem{xtext}
 Bettini, L.: Implementing domain-specific languages with Xtext and Xtend.
@@ -25,7 +25,7 @@ Bettini, L.: Implementing domain-specific languages with Xtext and Xtend.
 Bierman, G., Wren, A.: {First-Class Relationships in an Object-Oriented
   Language}.
 \newblock In: A.P. Black (ed.) {ECOOP 2005: 19th European Conference.
-  Proceedings}, pp. 262--286. Springer Berlin Heidelberg (2005)
+  Proceedings}, pp. 262--286. Springer (2005)
 
 \bibitem{ifml}
 Brambilla, M., Mauri, A., Umuhoza, E.: {Extending the Interaction Flow Modeling
@@ -38,7 +38,7 @@ Brambilla, M., Mauri, A., Umuhoza, E.: {Extending the Interaction Flow Modeling
 Bruneli{\`e}re, H., Cabot, J., Clasen, C., Jouault, F., B{\'e}zivin, J.:
   {Towards Model Driven Tool Interoperability}.
 \newblock In: T.~K{\"u}hne (ed.) {ECMFA 6th. Proceedings}, pp. 32--47. Springer
-  Berlin Heidelberg (2010)
+  (2010)
 
 \bibitem{cardoso}
 Cardoso, I.S.: {Inserindo suporte a declara{\c{c}}{\~a}o de
@@ -49,13 +49,13 @@ Cardoso, I.S.: {Inserindo suporte a declara{\c{c}}{\~a}o de
 \bibitem{er}
 Chen, P.P.S.: {The Entity-Relationship Model (Reprinted Historic Data)}.
 \newblock In: D.W. Embley (ed.) Handbook of Conceptual Modeling, pp. 57--84.
-  Springer Berlin Heidelberg (2011)
+  Springer (2011)
 
 \bibitem{cmp}
 Embley, D.W., Liddle, S.W., Pastor, O.: {Conceptual-Model Programming: A
   Manifesto}.
 \newblock In: D.W. Embley (ed.) {Handbook of Conceptual Modeling}, pp. 3--16.
-  Springer Berlin Heidelberg (2011)
+  Springer (2011)
 
 \bibitem{gaffney}
 Gaffney Jr., J.E., Cruickshank, R.D.: {A General Economics Model of Software
@@ -71,13 +71,18 @@ Gheraibia, Y., Bourouis, A.: {Ontology and automatic code generation on
 \bibitem{gogolla}
 Gogolla, M., Thalheim, B.: {UML and OCL in Conceptual Modeling}.
 \newblock In: D.W. Embley (ed.) Handbook of Conceptual Modeling, pp. 85--122.
-  Springer Berlin Heidelberg (2011)
+  Springer (2011)
 
 \bibitem{xpand}
 Greifenberg, T., M{\"{u}}ller, K., Roth, A., Rumpe, B., Schulze, C., Wortmann,
   A.: {Modeling Variability in Template-based Code Generators for Product Line
   Engineering}.
 \newblock CoRR \textbf{abs/1606.02903} (2016)
+
+\bibitem{thingml}
+Harrand, N., Fleurey, F., Morin, B., Husa, K.E.: Thingml: A language and code
+  generation framework for heterogeneous targets.
+\newblock In: Proceedings of the ACM/IEEE 19th MODELS, pp. 125--135 (2016)
 
 \bibitem{clang}
 {ISO}: {ISO/IEC 9899:2011 Programming languages --- C}.
@@ -89,14 +94,13 @@ ISO: {IEC 9075-1: 2003 (E) Database languages --- SQL Part 1: Framework
 
 \bibitem{pascal}
 Jensen, K., Wirth, N.: {PASCAL User Manual and Report}.
-\newblock Springer-Verlag New York, Inc. (1974)
+\newblock Springer-Verlag (1974)
 
 \bibitem{fcml}
 Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.:
   {Fundamental Conceptual Modeling Languages in OMiLAB}.
 \newblock In: D.~Karagiannis (ed.) {Domain-Specific Conceptual Modeling:
-  Concepts, Methods and Tools}, pp. 3--30. Springer International Publishing
-  (2016)
+  Concepts, Methods and Tools}, pp. 3--30. Springer (2016)
 
 \bibitem{telos}
 Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
@@ -107,7 +111,7 @@ Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
 Oldevik, J., Neple, T., Gr{\o}nmo, R., Aagedal, J., Berre, A.J.: {Toward
   Standardised Model to Text Transformations}.
 \newblock In: A.~Hartman (ed.) {ECMDA-FA. Proceedings}, pp. 239--253. Springer
-  Berlin Heidelberg (2005)
+  (2005)
 
 \bibitem{mda}
 OMG: {Model Driven Architecture (MDA) Guide rev. 2.0} (2014)
@@ -134,13 +138,13 @@ Preston, T.: {Semantic Versioning 2.0.0}.
 Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {Constructing Models
   with the Human-Usable Textual Notation}.
 \newblock In: K.~Czarnecki (ed.) {MoDELS: 11th International Conference.
-  Proceedings}, pp. 249--263. Springer Berlin Heidelberg (2008)
+  Proceedings}, pp. 249--263. Springer (2008)
 
 \bibitem{egl}
 Rose, L.M., Paige, R.F., Kolovos, D.S., Polack, F.A.C.: {The Epsilon Generation
   Language}.
 \newblock In: I.~Schieferdecker (ed.) {ECMDA-FA: 4th European Conference.
-  Proceedings}, pp. 1--16. Springer Berlin Heidelberg (2008)
+  Proceedings}, pp. 1--16. Springer (2008)
 
 \bibitem{cml-repo}
 dos Santos, Q.C.M.: {CML Project} (2017).
@@ -155,7 +159,7 @@ Steinberg, D., Budinsky, F., Merks, E., Paternostro, M.: {EMF: eclipse modeling
 Thalheim, B.: {The Theory of Conceptual Models, the Theory of Conceptual
   Modelling and Foundations of Conceptual Modelling}.
 \newblock In: D.W. Embley (ed.) {Handbook of Conceptual Modeling}, pp.
-  543--577. Springer Berlin Heidelberg (2011)
+  543--577. Springer (2011)
 
 \bibitem{metaedit}
 Tolvanen, J.P.: {MetaEdit+: Domain-specific Modeling for Full Code Generation
@@ -175,7 +179,7 @@ Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
 \bibitem{mm-dsl}
 Visic, N., Karagiannis, D.: {Developing Conceptual Modeling Tools Using a DSL}.
 \newblock In: R.~Buchmann (ed.) {KSEM: 7th International Conference.
-  Proceedings}, pp. 162--173. Springer International Publishing (2014)
+  Proceedings}, pp. 162--173. Springer (2014)
 
 \bibitem{voelter}
 Voelter, M.: {Generic Tools, Specific Languages}.
