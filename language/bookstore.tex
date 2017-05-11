@@ -16,7 +16,7 @@ concept Book
 concept Customer
 {
     orders: Order*;
-    /totalSales = orders | collect result += total;
+    /totalSales = orders.total | sum;
 }
 
 concept Order
