@@ -1,6 +1,6 @@
 \subsection{Modules and Libraries}\label{subsec:modlib}
 
-When developing a single application with just a few targets,
+When developing a single application with just a single target language,
 having a single directory to maintain all the CML source code is sufficient.
 But, once more than one application is developed as part of a larger project,
 and CML model elements are shared among them,
@@ -11,12 +11,14 @@ and it may be beneficial to separate the source code into different CML models.
 In order to allow that, CML supports \emph{modules}.
 Grouping a set of CML model elements,
 a module in CML is conceptually similar to a UML \cite{uml} package.
-Physically, each module is a directory containing three sub-directories:
+Physically, each module is a directory containing the following sub-directories:
 
 \begin{itemize}
 \item \emph{source}: where the CML source files reside.
 \item \emph{templates}: optional directory containing templates for code generation.
-\item \emph{targets}: created by the CML compiler to contain each target sub-directory, which in turn contains the target files generated for a given target.
+\item \emph{tests}: optional directory containing tests that verify the generated code.
+\item \emph{targets}: created by the CML compiler to contain each target sub-directory,
+which in turn contains the target files generated for a given target.
 \end{itemize}
 
 Under the \emph{source} directory, the module is defined by a \emph{module specification}.
@@ -24,14 +26,11 @@ If a module needs to reference CML model elements in other modules,
 then an import statement defines the name of the other modules.
 The CML compiler will then compile the imported modules
 before compiling the current module.
-In order for the CML compiler to find the other modules,
-they must be in a sub-directory with the module's name
-under the same directory where the current module is placed.
 
-CML modules have no versions
-as they are maintained in the same code repository with the other modules they import.
-However, one can package a module as a library,
+A CML module have no version
+as it is maintained in the same code repository with the other modules it imports.
+However, it is planned that a future version of CML will allow packaging a module as a library,
 which will have a version and the same name as the module.
-This library in turn can be published into a public (or company-wide) \emph{library site}
+Such a library will in turn be published into a public (or company-wide) \emph{library site}
 in order to be shared with other developers.
-A CML library is then a packaged, read-only module with a version.
+A CML library is expected to become a packaged, read-only, versioned module.
