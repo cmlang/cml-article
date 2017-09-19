@@ -1,34 +1,26 @@
 \begin{figure}
-\verbatimfont{\scriptsize}
+\verbatimfont{\small}
 \begin{verbatim}
-concept BookStore
-{
-    books: Book*; customers: Customer*; orders: Order*;
-    /goldCustomers = customers | select: totalSales > 1000;
-    /orderedBooks = orders.items.book;
+concept BookStore {
+  books: Book*; customers: Customer*; orders: Order*;
+  /goldCustomers = customers | select: totalSales > 1000;
+  /orderedBooks = orders.items.book;
 }
 
-concept Book
-{
-    title: String; price: Decimal; quantity: Integer = 0;
+concept Book {
+  title: String; price: Decimal; quantity: Integer = 0;
 }
 
-concept Customer
-{
-    orders: Order*;
-    /totalSales = sum(orders.total);
+concept Customer {
+  orders: Order*; /totalSales = sum(orders.total);
 }
 
-concept Order
-{
-    customer: Customer;
-    total: Decimal;
+concept Order {
+  customer: Customer; total: Decimal;
 }
 
-association CustomerOrder
-{
-    Order.customer: Customer;
-    Customer.orders: Order*;
+association CustomerOrder {
+  Order.customer; Customer.orders;
 }
 \end{verbatim}
 \caption{Adapted from the fictional Livir bookstore; a case study by Wazlawick \cite{wazlawick}.}
