@@ -3,20 +3,23 @@
 The CML language and compiler make it possible to specify,
 in a single high-level language,
 the concepts of ever-changing, increasingly distributed software systems.
-
 As opposed to modeling concepts, their properties and associations in each target language,
 from a single CML model,
-the CML extensible templates generate code that
-keeps the implementations
+the CML extensible templates generate code that keeps the implementations
 (across the different platforms and technologies)
 consistent with the specification.
 Also, as the technology landscape evolves,
 these textual CML models can be reused to generate code in new target languages and technologies.
 
 The initial version of CML has been designed to validate this textual, model-driven approach of software development.
-Practical application of CML is needed in order to provide qualitative evidence that
+The use of the CML compiler to model and implement CML's own metamodel
+has shown to reduce the number of manually written code and made the metamodel more readable, maintainable and reusable.
+Other applications of CML are needed in order to provide qualitative evidence that
 CML can indeed be used as a single source to implement multiple targets.
 Quantitative cost-benefit analysis
-(based on the implementation effort of hand-written vs generated lines-of-code, perhaps using a method adapted from the work of Gaffney et al \cite{gaffney})
+(based on the implementation effort of hand-written vs generated lines-of-code,
+perhaps using a method adapted from the work of Gaffney et al \cite{gaffney})
 may also provide data
-that shows whether the investment -- made on the development of CML models -- pays off. The data collected, together with the feedback provided by software developers, should then inform the iterative design of new CML features.
+that shows whether the investment -- made on the development of CML models -- pays off.
+The data collected, together with the feedback provided by software developers,
+should then inform the iterative evolution of CML features.
