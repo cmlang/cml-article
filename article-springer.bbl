@@ -97,10 +97,9 @@ Jensen, K., Wirth, N.: {PASCAL User Manual and Report}.
 \newblock Springer-Verlag (1974)
 
 \bibitem{fcml}
-Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.:
-  {Fundamental Conceptual Modeling Languages in OMiLAB}.
-\newblock In: D.~Karagiannis (ed.) {Domain-Specific Conceptual Modeling:
-  Concepts, Methods and Tools}, pp. 3--30. Springer (2016)
+Karagiannis, D., Buchmann, R.A., Burzynski, P., Reimer, U., Walch, M.: In:
+  {Domain-Specific Conceptual Modeling: Concepts, Methods and Tools}, pp.
+  3--30. Springer (2016)
 
 \bibitem{telos}
 Mylopoulos, J., Borgida, A., Jarke, M., Koubarakis, M.: {Telos: Representing
@@ -171,6 +170,11 @@ Tolvanen, J.P.: {MetaEdit+: Domain-specific Modeling for Full Code Generation
 Torgersen, M.: {Querying in C\#: How Language Integrated Query (LINQ) Works}.
 \newblock In: {Companion to the 22Nd ACM SIGPLAN Conference}, OOPSLA '07, pp.
   852--853. ACM, New York, NY, USA (2007)
+
+\bibitem{trinder}
+Trinder, P.: Comprehensions, a query notation for dbpls.
+\newblock In: Proceedings of DBPL3, pp. 55--68. Morgan Kaufmann Pub. Inc., San
+  Francisco, USA (1992)
 
 \bibitem{jet}
 {van Emde Boas, Ghica}: Template programming for model-driven code generation.
