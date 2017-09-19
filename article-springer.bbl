@@ -14,8 +14,8 @@ Albano, A., Bergamini, R., Ghelli, G., Orsini, R.: An object data model with
 \bibitem{balzer}
 Balzer, S., Gross, T.R., Eugster, P.: {A Relational Model of Object
   Collaborations and Its Use in Reasoning About Relationships}.
-\newblock In: E.~Ernst (ed.) {ECOOP: 21st European Conference. Proceedings},
-  pp. 323--346. Springer (2007)
+\newblock In: E.~Ernst (ed.) {21st ECOOP. Proceedings}, pp. 323--346. Springer
+  (2007)
 
 \bibitem{xtext}
 Bettini, L.: Implementing domain-specific languages with Xtext and Xtend.
@@ -24,8 +24,8 @@ Bettini, L.: Implementing domain-specific languages with Xtext and Xtend.
 \bibitem{bierman}
 Bierman, G., Wren, A.: {First-Class Relationships in an Object-Oriented
   Language}.
-\newblock In: A.P. Black (ed.) {ECOOP 2005: 19th European Conference.
-  Proceedings}, pp. 262--286. Springer (2005)
+\newblock In: A.P. Black (ed.) {19th ECOOP. Proceedings}, pp. 262--286.
+  Springer (2005)
 
 \bibitem{ifml}
 Brambilla, M., Mauri, A., Umuhoza, E.: {Extending the Interaction Flow Modeling
