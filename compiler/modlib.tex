@@ -34,7 +34,4 @@ However, one can package a module as a library,
 which will have a version and the same name as the module.
 This library in turn can be published into a public (or company-wide) \emph{library site}
 in order to be shared with other developers.
-A CML library is then a packaged, read-only module with semantic versioning \cite{semver},
-where compatible versions do not change or remove public elements of the library's CML model (or function/parameters from the library's templates); only add new elements.
-Fixes cannot change the library's public elements; only internal elements.
-These rules may be enforced by the CML compiler when packaging and publishing new versions of a library, and they are essential to guarantee the evolution and reuse of CML models.
+A CML library is then a packaged, read-only module with a version.
