@@ -3,8 +3,8 @@
 \begin{verbatim}
 concept BookStore
 {
-    books: Book+; customers: Customer*; orders: Order*;
-    /goldCustomers = customers | select totalSales > 1000;
+    books: Book*; customers: Customer*; orders: Order*;
+    /goldCustomers = customers | select: totalSales > 1000;
     /orderedBooks = orders.items.book;
 }
 
@@ -16,7 +16,7 @@ concept Book
 concept Customer
 {
     orders: Order*;
-    /totalSales = orders.total | sum;
+    /totalSales = sum(orders.total);
 }
 
 concept Order

@@ -5,7 +5,9 @@ The block-based syntax declaring each concept resembles the C \cite{clang} langu
 Each concept declares a list of properties.
 The property declarations are based on the Pascal \cite{pascal} style for variable declarations,
 where the name is followed by a colon (``:'') and then the type declaration.
-Part of the CML syntax for expressions, such as the expression in \emph{BookStore}'s \emph{orderedBooks}, is based on OCL \cite{ocl} expressions; while the syntax of the expression in \emph{goldCustomers} is new, its semantics also match OCL \cite{ocl} query expressions.
+Part of the CML syntax for expressions, such as the expression in \emph{BookStore}'s \emph{orderedBooks}, is based on OCL \cite{ocl} expressions.
+While the syntax of the expression in \emph{goldCustomers} is new,
+its semantics also match OCL \cite{ocl} query expressions.
 
 \input{language/bookstore.tex}
 
@@ -13,9 +15,15 @@ The key language features are:
 \emph{Book} and \emph{Customer} are concepts;
 \emph{title} and \emph{price} under the \emph{Book} concept are attributes;
 \emph{totalSales} under the \emph{Customer} concept is a derived attribute;
-the \emph{books} and \emph{customers} properties declared under the \emph{BookStore} concept represent unidirectional associations (in UML \cite{uml}, they would correspond to the association roles);
+the properties \emph{books} and \emph{customers}
+declared under the \emph{BookStore} concept
+represent unidirectional associations
+(in UML \cite{uml}, they would correspond to the association roles);
 \emph{CustomerOrder} binds two unidirectional associations
 (represented by the \emph{orders} property under the \emph{Customer} concept
 and by the \emph{customer} property under the \emph{Order} concept)
 into a single bidirectional association;
-the \emph{goldCustomers} and \emph{orderedBooks} properties under the \emph{BookStore} concept are examples of derived associations. These language features will be defined in the subsection \ref{subsec:metamodel}.
+the properties \emph{goldCustomers} and \emph{orderedBooks}
+under the \emph{BookStore} concept are examples of derived associations.
+
+These language features are defined in the subsection \ref{subsec:metamodel}.
