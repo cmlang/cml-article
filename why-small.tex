@@ -18,7 +18,8 @@ a new language is designed with the following goals (among others):
 CML follows the principle ``the model is the code'' as laid out on the \emph{Conceptual-Model Programming} (CMP) manifesto \cite{cmp}.
 Furthermore,
 CML is also intended to enable software developers to do \emph{conceptual modeling}
-on the same workflow they are used to doing \emph{programming}.
+on the same workflow they are used to doing \emph{programming};
+that is, using text editors and a compiler.
 CML strives to \emph{not only be} the code (as advocated by CMP),
 but also \emph{look like} code (syntactically speaking),
 pursuing compatibility with developers' mindset, toolset and workflow.
@@ -32,19 +33,27 @@ and as such, it can also be used for UML models.
 The syntax of the structural (static) elements of CML models is based on HUTN.
 
 \item \emph{Language Evolution}:
-CML is expected to evolve with its compiler, and the tooling around it.
+This initial version is being designed for the validation of the model-driven development approach offered by CML.
 Unlike the expressive power seen on UML \cite{uml} and OWL 2 \cite{owl2} with their breadth of features,
-the CML language and its extensible compiler intentionally support a limited number of features and scenarios.
-This first version has been designed for the initial validation of the model-driven development approach taken by CML.
-As developers provide feedback,
-new language features may be iteratively added in order to enable the extensible CML compiler to support new modeling/development scenarios.
+the CML language initially supports generalization/specialization,
+bidirectional associations (with zero-or-one and zero-or-many cardinality)
+and the ability to define derived attributes and associations with OCL-like expressions.
+These features have already allowed the specification of CML compiler's own metamodel in CML itself.
+The CML compiler is thus the first system used to validate CML's aplicability,
+and will continue to do so as the language evolves.
 
 \item \emph{Extensible Target Generation}:
-Some of the language features enable the generation of code into a wide range of target languages and technologies. Among the features that must be provided by the CML language,
-there is the ability to break models into modules that can be shared as libraries;
-to specify different code generation targets;
-and to annotate model elements in order to provide more information for specific targets during code generation.
-In order to support code generation, these language features must be available in a single language, so that they can be compatible with each other and with the compiler backend.
+Some of the language features should enable the generation of code
+into a wide range of target languages and technologies.
+Among the features that must be provided by the CML language,
+it is the ability to break models into modules (already available);
+the ability to share modules as libraries (planned);
+the ability to specify different code generation targets (already available);
+and the ability to annotate model elements in order to provide more information
+for specific targets during code generation (also planned).
+In order to effectively support code generation,
+these language features must be available in a single language,
+so that they can be compatible with each other and with the compiler backend.
 
 \end{itemize}
 
