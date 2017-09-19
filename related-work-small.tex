@@ -11,7 +11,9 @@ MPS \cite{voelter} is a development environment for DSLs.
 Strictly speaking, its DSLs are not textual,
 since their AST is directly edited on projectional editors.
 However, the editors allow textual representations.
-Unlike MPS, the DSLs created with the M language \cite{mlang} are truly textual. It was part of the discontinued Oslo project from Microsoft,
+Unlike MPS,
+the DSLs created with the M language \cite{mlang} are truly textual.
+It was part of the discontinued Oslo project from Microsoft,
 which incorporated into Visual Studio similar capabilities to what is available on MPS.
 Xtext/Xtend \cite{xtext} allows the definition of textual DSLs
 to generate code from conceptual models edited on Eclipse.
@@ -48,9 +50,11 @@ that can be used to generate user interfaces on different platforms,
 such as the Web, or on mobile devices.
 The major drawback of graphical languages,
 as covered in section \ref{sec:why},
-is their difficulty to integrate seamlessly with the workflow, tools and mindset of software developers.
+is their difficulty to integrate seamlessly with the text-based,
+compiler-based workflow of software developers.
 
-Frameworks also allow code generation from conceptual models, but lack a modeling language -- graphical or textual.
+Frameworks also allow code generation from conceptual models,
+but lack a modeling language -- graphical or textual.
 EMF \cite{emf} is a classical example,
 where modeling is done via editors on Eclipse or via a programming interface,
 and the models are stored in the ECORE/XML format.
@@ -77,7 +81,7 @@ Xpand also allows this level of extensibility.
 Just like CML, there are programming languages
 that provide the ability to declare bidirectional associations.
 DSM \cite{balzer} is an object-oriented programming language with support for associations.
-Fibonacci \cite{fibonacci}  is programming language for object-oriented databases
+Fibonacci \cite{fibonacci} is programming language for object-oriented databases
 that allows the modeling of association roles.
 ASSOCIATION\# \cite{cardoso}, on the other hand,
 is an extension to C\# that allows the modeling of associations.
