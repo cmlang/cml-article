@@ -1,13 +1,15 @@
 \section{The Extensible Compiler}\label{sec:compiler}
 
 In order to realize the CMP \cite{cmp} manifesto's vision,
-the CML compiler can generate code in any target language,
-given that the corresponding templates are provided.
-A set of core templates is provided by the CML compiler's base libraries.
-Third-party libraries can also provide their own templates,
-along with their conceptual models,
-in order to target specific technologies or platforms.
-Developers can also extend existing templates in order to adapt the implementation to characteristics specific to their projects.
+the CML compiler can generate code in any target language
+if the corresponding templates are provided.
+A set of core templates is provided by CML compiler's base module,
+which is currently supporting Java and Python.
+In order to target specific technologies or platforms,
+third-party modules can also provide their own templates,
+along with their conceptual models.
+Developers can also extend existing templates
+in order to adapt the implementation to characteristics specific to their projects.
 
 Subsection \ref{subsec:overview} provides an overview of the CML compiler's architecture.
 Next, subsection \ref{subsec:templates} introduces the CML compiler's extensible templates.
