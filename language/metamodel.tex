@@ -44,12 +44,12 @@ while the UML \emph{Class} may also have \emph{Operation} instances.
 \item \emph{Property}: May hold values of primitive types, in which case they represent an attribute on the \emph{ER} and \emph{UML} metamodels;
 or may hold references (or collections of references) linking to instances of other concepts.
 On the ER metamodel,
-a set of all references linking one \emph{Entity Type} to another is known as a \emph{Relationship};
+a set of all reference pairs linking one \emph{Entity Type} to another is known as a \emph{Relationship};
 on the UML metamodel, it is known as a unidirectional \emph{Association}.
 
 \item \emph{Association}: Unlike the ER and UML metamodels, in the CML metamodel,
 only a bidirectional \emph{Association} is represented with the \emph{Association} class.
-Using UML terminology, they bind the reference (non-primitive) properties (of the same, or of different concepts),
+Using UML terminology, they bind the reference (non-primitive) properties,
 so that the \emph{Association} links are accessible from each participating association end.
 It directly represents in the CML metamodel what normally requires additional implementation in programming languages.
 It is inspired\footnote{The syntax used in CML resembles the syntax of a \emph{struct} in C \cite{clang}, while Cardoso \cite{cardoso} uses a verbose syntax. Also, unlike CML, Cardoso does \emph{not} bind properties that represent each association end; instead, associations -- unidirectional or bidirectional -- are declared independently of class properties.} on the work of Cardoso \cite{cardoso}, which extends the C\# language to represent bidirectional associations; it is also inspired on the work of Balzer et. al. \cite{balzer}, which uses \emph{member interposition} to model relationships.

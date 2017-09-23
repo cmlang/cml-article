@@ -1,6 +1,6 @@
 \subsection{Modules and Libraries}\label{subsec:modlib}
 
-When developing a single application with just a single target language,
+When developing a single application,
 having a single directory to maintain all the CML source code is sufficient.
 But, once more than one application is developed as part of a larger project,
 and CML model elements are shared among them,
@@ -23,11 +23,11 @@ which in turn contains the target files generated for a given target.
 
 Under the \emph{source} directory, the module is defined by a \emph{module specification}.
 If a module needs to reference CML model elements in other modules,
-then an import statement defines the name of the other modules.
-The CML compiler will then compile the imported modules
+then import statements define the name of the other modules.
+The CML compiler should then compile the imported modules
 before compiling the current module.
 
-A CML module have no version
+A CML module has no version
 as it is maintained in the same code repository with the other modules it imports.
 However, it is planned that a future version of CML will allow packaging a module as a library,
 which will have a version and the same name as the module.

@@ -9,8 +9,8 @@ Albano, A., Bergamini, R., Ghelli, G., and Orsini, R. (1993).
 Balzer, S., Gross, T.~R., and Eugster, P. (2007).
 \newblock {A Relational Model of Object Collaborations and Its Use in Reasoning
   About Relationships}.
-\newblock In Ernst, E., editor, {\em {ECOOP: 21st European Conference.
-  Proceedings}}, pages 323--346. Springer.
+\newblock In Ernst, E., editor, {\em {21st ECOOP. Proceedings}}, pages
+  323--346. Springer.
 
 \bibitem[Bettini 2016]{xtext}
 Bettini, L. (2016).
@@ -20,8 +20,8 @@ Bettini, L. (2016).
 \bibitem[Bierman and Wren 2005]{bierman}
 Bierman, G. and Wren, A. (2005).
 \newblock {First-Class Relationships in an Object-Oriented Language}.
-\newblock In Black, A.~P., editor, {\em {ECOOP 2005: 19th European Conference.
-  Proceedings}}, pages 262--286. Springer.
+\newblock In Black, A.~P., editor, {\em {19th ECOOP. Proceedings}}, pages
+  262--286. Springer.
 
 \bibitem[Brambilla et~al. 2014]{ifml}
 Brambilla, M., Mauri, A., and Umuhoza, E. (2014).
@@ -107,9 +107,8 @@ Jensen, K. and Wirth, N. (1974).
 \bibitem[Karagiannis et~al. 2016]{fcml}
 Karagiannis, D., Buchmann, R.~A., Burzynski, P., Reimer, U., and Walch, M.
   (2016).
-\newblock {Fundamental Conceptual Modeling Languages in OMiLAB}.
-\newblock In Karagiannis, D., editor, {\em {Domain-Specific Conceptual
-  Modeling: Concepts, Methods and Tools}}, pages 3--30. Springer.
+\newblock In {\em {Domain-Specific Conceptual Modeling: Concepts, Methods and
+  Tools}}, pages 3--30. Springer.
 
 \bibitem[Mylopoulos et~al. 1990]{telos}
 Mylopoulos, J., Borgida, A., Jarke, M., and Koubarakis, M. (1990).
@@ -143,10 +142,6 @@ Parr, T.~J. (2004).
 \newblock {Enforcing Strict Model-view Separation in Template Engines}.
 \newblock In {\em {Proceedings of the 13th International Conference on World
   Wide Web}}, WWW '04, pages 224--233. ACM, New York, NY, USA.
-
-\bibitem[Preston ]{semver}
-Preston, T.
-\newblock {Semantic Versioning 2.0.0}.
 
 \bibitem[Rose et~al. 2008a]{hutn}
 Rose, L.~M., Paige, R.~F., Kolovos, D.~S., and Polack, F. A.~C. (2008a).
@@ -184,6 +179,12 @@ Torgersen, M. (2007).
 \newblock {Querying in C\#: How Language Integrated Query (LINQ) Works}.
 \newblock In {\em {Companion to the 22Nd ACM SIGPLAN Conference}}, OOPSLA '07,
   pages 852--853, New York, NY, USA. ACM.
+
+\bibitem[Trinder 1992]{trinder}
+Trinder, P. (1992).
+\newblock Comprehensions, a query notation for dbpls.
+\newblock In {\em Proceedings of DBPL3}, pages 55--68, San Francisco, USA.
+  Morgan Kaufmann Pub. Inc.
 
 \bibitem[{van Emde Boas, Ghica} 2004]{jet}
 {van Emde Boas, Ghica} (2004).
