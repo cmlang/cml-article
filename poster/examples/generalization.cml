@@ -1,0 +1,35 @@
+
+@concept Shape
+{
+    color: String;
+    area: Double;
+}
+
+@concept Rectangle: Shape
+{
+    width: Double;
+    height: Double;
+
+    /area = width * height;
+}
+
+@concept Rhombus: Shape
+{
+    p: Double;
+    q: Double;
+
+    /area = (p * q) / 2.0d;
+}
+
+@concept Square: Rectangle, Rhombus
+{
+    side_length: Double;
+
+    /width = side_length;
+    /height = side_length;
+
+    /p = side_length * 1.41421356237d;
+    /q = p;
+
+    /area = side_length ^ 2.0d;
+}

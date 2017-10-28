@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{xtext}
+Lorenzo Bettini.
+\newblock {\em Implementing domain-specific languages with Xtext and Xtend}.
+\newblock Packt Publishing Ltd, 2016.
+
+\bibitem{mlang}
+Hugo Bruneli{\`e}re, Jordi Cabot, Cau{\^e} Clasen, Fr{\'e}d{\'e}ric Jouault,
+  and Jean B{\'e}zivin.
+\newblock {Towards Model Driven Tool Interoperability}.
+\newblock In Thomas K{\"u}hne, editor, {\em {ECMFA 6th. Proceedings}}, pages
+  32--47. Springer, 2010.
+
+\bibitem{cmp}
+David~W. Embley, Stephen~W. Liddle, and Oscar Pastor.
+\newblock {Conceptual-Model Programming: A Manifesto}.
+\newblock In David~W. Embley and Bernhard Thalheim, editors, {\em {Handbook of
+  Conceptual Modeling: Theory, Practice, and Research Challenges}}, pages
+  3--16. Springer Berlin Heidelberg, Berlin, Heidelberg, 2011.
+
+\bibitem{thingml}
+Nicolas Harrand, Franck Fleurey, Brice Morin, and Knut~Eilif Husa.
+\newblock Thingml: A language and code generation framework for heterogeneous
+  targets.
+\newblock In {\em Proceedings of the ACM/IEEE 19th MODELS}, pages 125--135,
+  2016.
+
+\bibitem{mda}
+OMG.
+\newblock {Model Driven Architecture (MDA) MDA Guide rev. 2.0}, 2014.
+
+\bibitem{ocl}
+OMG.
+\newblock {Object Constraint Language (OCL), Version 2.4}, 2014.
+
+\bibitem{uml}
+OMG.
+\newblock {Unified Modeling Language (UML), Superstructure, Version 2.5}, 2015.
+
+\bibitem{emf}
+Dave Steinberg, Frank Budinsky, Ed~Merks, and Marcelo Paternostro.
+\newblock {\em {EMF: eclipse modeling framework}}.
+\newblock Pearson Education, 2008.
+
+\bibitem{mm-dsl}
+Niksa Visic and Dimitris Karagiannis.
+\newblock {Developing Conceptual Modeling Tools Using a DSL}.
+\newblock In Robert Buchmann, editor, {\em {KSEM: 7th International Conference.
+  Proceedings}}, pages 162--173. Springer, 2014.
+
+\bibitem{voelter}
+Markus Voelter.
+\newblock {\em Generic Tools, Specific Languages}.
+\newblock PhD thesis, Delft University of Technology, June 2014.
+
+\end{thebibliography}
