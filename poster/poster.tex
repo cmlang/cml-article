@@ -152,7 +152,7 @@ the CML compiler's arquitecture.
 
 \begin{center}
 \includegraphics[width=1.0\linewidth]{figures/architecture.eps}
-\captionof{figure}{\color{Green} Architectural Overview of The CML Compiler}
+\captionof{figure}{\color{Green} Architectural Overview of CML Compiler}
 \label{fig:architecture}
 \end{center}
 
@@ -173,18 +173,18 @@ allowing software developers to incorporate conceptual modeling
 into the same workflow they are used to doing software development.
 
 \item In order to validate the use of the CML language and compiler
-for modeling and implementing its own metamodel,
+to model and implement its own metamodel,
 this initial version of CML provides
 generalization/specialization,
 associations with cardinality zero-or-one (optionals)
 and zero-or-more (sequences),
 and the ability to define derived atributes/associations
-using expressions similar to OCL \cite{ocl}.
+using expressions.
 
-\item CML allows developers to customize, annotate and extend
+\item CML allows developers to customize and extend
 the generated code via extensible templates
-in order to be able to leverage conceptual models
-across different programming languages and technologies
+in order to leverage conceptual models
+across different programming languages and technologies.
 
 \item While other initiatives,
 such as the \emph{Model-Driven Architecture} \cite{mda},
@@ -205,7 +205,7 @@ than it is normally viable with specific technologies.
 \subsection*{Generalization/Specialization}
 
 Figure \ref{ex:generalization} presents some examples of
-generalization/specialization relationships declared in CML.
+generalization/specialization relationships defined in CML.
 
 \begin{center}
 \verbatimfont{\small}
@@ -216,7 +216,7 @@ generalization/specialization relationships declared in CML.
 
 \subsection*{Associations}
 
-Figure \ref{ex:associations} presents some examples of \emph{associations} declared in CML.
+Figure \ref{ex:associations} presents some examples of \emph{associations} defined in CML.
 
 \begin{center}
 \verbatimfont{\small}
@@ -232,32 +232,14 @@ Figure \ref{ex:associations} presents some examples of \emph{associations} decla
 \section*{Extensible Templates}
 
 Figure \ref{ex:associations} presents some examples of
-\emph{extensible templates} declared in CML.
+\emph{extensible templates} defined in StringTemplate \cite{st}.
 
 \begin{center}
 \verbatimfont{\scriptsize}
-\begin{verbatim}
-model_files(task, model) ::= <<
-pom_file|pom.xml
->>
-
-concept_files(task, concept) ::= <<
-concept_file|<task.packagePath>/<concept.name; format="pascal-case">.java
->>
-
-...
-
-import "/design/poj.stg"
-
-concept_file(task, concept) ::= <<
-package <task.packageName>;
-
-import java.util.*;
-
-public <class(concept)>
->>
-\end{verbatim}
-\captionof{figure}{\color{Green} Extensible Templates in CML}
+\begin{minipage}{\linewidth}
+\lstinputlisting{examples/example.stg}
+\end{minipage}
+\captionof{figure}{\color{Green} Extensible Templates}
 \label{ex:templates1}
 \end{center}
 
